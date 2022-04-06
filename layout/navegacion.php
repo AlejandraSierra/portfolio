@@ -16,7 +16,7 @@
     <div class="w-100 px-5" id="navbar">
         <nav class="navbar navbar-expand-lg navbar-light barra-navegacion">
             <div class="container-fluid">
-                <a class="navbar-brand order-lg-2" href="index.html"><img src="../img/logo.svg"
+                <a class="navbar-brand order-lg-2" href="../index.html"><img src="../img/logo.svg"
                     alt="Alejandra Sierra _Design"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
@@ -26,13 +26,13 @@
                 <div class="collapse navbar-collapse order-lg-1" id="navbarTogglerDemo01">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 h6">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html#home">Inicio</a>
+                            <a class="nav-link" href="../index.html#home">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../index.html#about">Sobre Mi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../index.html#portfolio">Portafolio</a>
+                            <a class="nav-link" href="../index.html#portafolio">Portafolio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../index.html#contact">Contacto</a>

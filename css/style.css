@@ -22,8 +22,6 @@ body {
   font-weight: 500;
 }
 
-
-
 /* Contenedores alto completo */
 
 .bg-container {
@@ -51,8 +49,9 @@ body {
 
 /* Sección sobre mi */
 
-.titular {
-  border-right: 1px solid var(--bs-gray);
+.info-skill {
+  border-left: 1px solid var(--bs-gray);
+  margin-bottom: 0;
 }
 
 /* Portafolio */
@@ -135,4 +134,54 @@ body {
 
 .footer a:hover {
   color: rgba(242, 242, 242, 1);
+  transition: var(--ease);
 }
+
+/* Proyectos */
+.container-80-vh {
+  height: 80vh;
+}
+
+.container-50-vh {
+  width: 100%;
+  height: 50vh;
+}
+
+.highlight {
+  background-color:rgba(242, 242, 242, 0.8);
+}
+
+.bg-parallax {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nav-projects {
+  background: linear-gradient(180deg, #005A72 0%, #003147 100%);
+}
+
+.nav-projects a {
+  color: rgba(242, 242, 242, 0.7);
+  transition: var(--ease);
+}
+
+.nav-projects a:hover {
+  color: rgba(242, 242, 242, 1);
+  transition: var(--ease);
+}
+
+.info-text {
+  border-left: 1px solid var(--bs-gray);
+}
+
+@media (max-width: 991.98px) { 
+  .container-vh {
+    height: 50vh;
+  }
+
+  .bg-container {
+    background-position: top;
+  }
+ }
