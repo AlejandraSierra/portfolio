@@ -25,19 +25,19 @@
 <div class="container my-5 py-3 py-lg-5">
     <div class="row">
         <div class="col-12 col-lg-5 lead">
-        Aquí estaría una pequeña descripción general del proyecto trabajado. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis nisi vel nibh tristique, sit amet porttitor neque mattis.
+            Bitácora es un sitio web que permite a los usuarios registrar el desarrollo de sus viajes de forma privada con el fin de recopilar sus historias en un mismo espacio y posteriormente poder recordar los detalles y vivencias de cada uno.  
         </div>
-        <div class="col-12 col-md-6 col-lg-3 py-3 py-lg-0 offset-lg-1">
-            <div class="caption">Rol</div>
-            <div class="text">Lorem | ipsum dolor</div>
-            <div class="caption mt-3">Rol</div>
-            <div class="text">Lorem | ipsum dolor</div>
+        <div class="col-12 col-md-6 col-lg-3 py-4 py-lg-0 offset-lg-1">
+            <div class="caption">Rol en el proyecto</div>
+            <div class="text">Desarrollador Web | Diseñador Web | UX Researcher</div>
+            <div class="caption mt-3">Herramientas Utilizadas</div>
+            <div class="text">HTML5 | CSS3 | JavaScript | PHP | MySQL | Figma | Miro</div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3">
-            <div class="caption">Rol</div>
-            <div class="text">Lorem | ipsum dolor</div>
-            <div class="caption mt-3">Rol</div>
-            <div class="text">Lorem | ipsum dolor</div>
+        <div class="col-12 col-md-6 col-lg-3 py-0 py-md-4 py-lg-0">
+            <div class="caption">Habilidades</div>
+            <div class="text">Desarrollo web | Diseño web | UX/UI | Design Thinking</div>
+            <div class="caption mt-3">Duración del proyecto</div>
+            <div class="text">30 días</div>
         </div>
     </div>
 </div>
@@ -45,7 +45,7 @@
 <!-- Justificación | Centro -->
 
 <div class="row gx-0">
-    <div class="col-12 container-50-vh py-5 bg-parallax" style="background-image: url('../img/bitacora_header.jpg');">
+    <div class="col-12 container-50-vh py-5 bg-parallax" style="background-image: url('../img/bitacora_justificacion.jpg');">
     </div>
 </div>
 
@@ -56,8 +56,8 @@
         </div>
         <div class="col-12 col-lg-7">
             <div class="text py-0 py-lg-2 ps-3 info-text">
-                Este proyecto surge como una necesidad de la empresa x de construir su propia página web con tales características particulares...<br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis nisi vel nibh tristique, sit amet porttitor neque mattis. Etiam vitae nisl non tellus vulputate pretium quis ac velit. Quisque euismod pellentesque nunc ut scelerisque. Pellentesque vitae tincidunt nunc. Suspendisse potenti. 
+                Bitácora se ha creado como un proyecto final para aprobar el módulo de desarrollo web fullstack, se han incorporado elementos de UX research y UI design con el fin de hacer el proyecto mucho más completo. La idea surge a partir de mi interés personal en los viajes, siendo esta una de mis actividades preferidas. Considero que viajar no solo altera la rutina, sino que además permite conocer otras culturas, otros lugares y vivir experiencias inolvidables. Siempre quise hacer un diario o bitácora donde relatar acontecimientos que ocurren durante los viajes para recordar cada detalle, así que ¿Por qué no hacerlo en un ambiente web y extenderlo a otros usuarios interesados?<br><br>
+                Así pues, el objetivo del proyecto es crear un sitio web en el que cada usuario tenga su propio espacio privado en el cual pueda crear viajes o categorías que recopilen historias o entradas, en estas podrán escribir los relatos sobre sus experiencias personales para luego poder consultarlas y rememorar aquellos momentos. Adicionalmente, las imágenes de las historias se agruparán de forma automática creando una galería categorizada por viajes y se podrán gestionar tanto viajes como entradas con el sistema CRUD (Create, read, update and delete).
             </div>
         </div>
     </div>
@@ -66,27 +66,23 @@
 <!-- Paso | Izquierda -->
 
 <div class="row gx-0">
-    <div class="col-12 container-50-vh py-5 bg-parallax" style="background-image: url('../img/bitacora_header.jpg');">
+    <div class="col-12 container-50-vh py-5 bg-parallax" style="background-image: url('../img/bitacora_research.jpg');">
     </div>
 </div>
 
 <div class="container my-5 py-0 py-lg-5">
     <div class="row">
         <div class="col-12 col-lg-2 pe-4 pb-3 pb-lg-0 text-lg-end h3">
-            Paso 1        
+            Research e Ideación     
         </div>
         <div class="col-12 col-lg-7">
             <div class="text py-0 py-lg-2 ps-3 info-text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique temporibus aliquam consequuntur sapiente ut sit adipisci itaque ab cum! Ipsa explicabo quidem dicta natus alias corporis libero quis sint impedit.
-                Voluptas vel ipsa vero non debitis, pariatur dolor reprehenderit aspernatur dignissimos ullam et! Eos, dicta cumque? Repellendus atque provident soluta totam id cupiditate quisquam, exercitationem quod! Hic, rerum eveniet? Enim?
-                Consequuntur neque sunt, optio ut incidunt ea tempora veritatis fuga accusantium hic perspiciatis non animi ducimus velit obcaecati? Nesciunt placeat voluptate officia saepe nostrum nam hic quas? Corrupti, reprehenderit quod!
-                Nesciunt earum commodi placeat a dolorum ab quis voluptas corporis, mollitia minima unde eligendi soluta id accusantium maiores fuga nemo excepturi saepe sint enim. Provident voluptatem earum debitis esse sequi.
-                Ad consequatur molestias maiores aspernatur vitae facere molestiae deleniti quo veniam reprehenderit itaque eos, soluta amet nihil, nulla sint quasi reiciendis neque iure totam tempore explicabo! Nulla dolore eaque nesciunt?
-                Necessitatibus molestiae ad aliquam sapiente nemo quis veritatis, blanditiis aliquid eum fugit eos est cumque doloremque facilis a, quaerat quam voluptate minima nulla! Ut, distinctio est. Hic quasi inventore possimus.
-                In exercitationem facilis, sint repellendus itaque, nihil ab animi optio maxime repudiandae, fugit suscipit aliquid iste? Asperiores possimus obcaecati, pariatur, officia in corporis odit autem ducimus eius libero est magni?
-                Saepe commodi pariatur ipsam quos expedita, consequatur eius. Ut rerum possimus blanditiis a nam cupiditate reprehenderit maiores? Explicabo ipsa autem minima iste, dicta, nisi quaerat sequi provident sint asperiores quod.
-                Nemo autem expedita voluptates facere aspernatur distinctio. Laudantium, tempore at quam expedita est tempora libero voluptas soluta necessitatibus illum deserunt amet repudiandae a magnam minus id quia laboriosam commodi dolorem!
-                A amet aperiam dolor adipisci animi fugit quibusdam aspernatur quasi, minus assumenda, officia excepturi at? Totam cum exercitationem quisquam ratione dolorem inventore consequuntur debitis pariatur, unde assumenda cupiditate laudantium. Pariatur.
+                Para realizar el proceso de research, se utilizó la metodología ágil <span class="fw-bold">Design Thinking</span> a partir de la generación de diversos “entregables” que permitieron organizar las ideas e información recolectada para llegar a conclusiones útiles y posibles funcionalidades que tendrá el sitio web. Este proceso incluye cuatro etapas: <span class="fw-bold">observación, síntesis, ideación y diseño</span>.<br><br>
+                En la <span class="fw-bold">etapa de observación</span>, se generaron unas <span class="fw-bold">Research questions</span> en las que se tuvieron en cuenta posibles acciones o funcionalidades a las que podría acceder el usuario, con estas preguntas, se generó un <span class="fw-bold">How might we</span> que replantea la formulación para determinar cómo se podrían ejecutar las funcionalidades de acuerdo con los recursos que se disponían, posteriormente estas preguntas fueron categorizadas en: <span class="highlight-body">funcionalidades básicas, complementarias y comunidad</span>. A partir de un <span class="fw-bold">Benchmarking</span>, se realizó una comparación de bitácoras y sitios similares en la web identificando sus funcionalidades más importantes e interfaces, finalmente, se hizo una <span class="fw-bold">Netnografía</span> que recoge opiniones en la web de personas que utilizan aplicaciones o sitios de bitácoras con el fin de conocer sus experiencias positivas y/o negativas. <br><br>
+                En la <span class="fw-bold">etapa de síntesis</span>, se realizó una <span class="fw-bold">matriz de utilidad y viabilidad</span> que permitió organizar de manera visual las posibles funcionalidades de acuerdo con su utilidad y viabilidad para así poder establecer su importancia y las posibilidades de crearlos de acuerdo con su dificultad.<br><br>
+                En la <span class="fw-bold">etapa de ideación</span>, tomando como referencia la información obtenida en las etapas previas, se definieron las posibles funcionalidades que tendría el sitio web con unos <span class="fw-bold">finding e insights</span>, luego, a partir del uso de un esquema <span class="fw-bold">In – Out</span>, se aplicó un primer filtro para eliminar aquellas funcionalidades que por motivos técnicos o de gestión no se podían incorporar en una primera versión y finalmente, con el uso de un sistema <span class="fw-bold">MoSCoW</span>, se determinaron en orden de importancia cuales funcionalidades tenían que incluirse, cuáles deberían ser tenidas en cuenta, cuales podrían implementarse y cuales definitivamente no se iban a utilizar.<br><br>
+                En la <span class="fw-bold">etapa de diseño</span> correspondiente al research, se realizó un <span class="fw-bold">Moodboard</span> o tablero de referentes e inspiración para conocer las últimas tendencias de diseño que podrían utilizarse en los elementos de la bitácora, posteriormente se generó una <span class="fw-bold">planeación de las estructuras que debían tener las bases de datos</span> y un <span class="fw-bold">site map</span> que permitió plantear la estructura del sitio web con sus contenidos.<br><br>
+                Puedes ingresar al tablero de Miro <a href="https://miro.com/app/board/o9J_lpguNQc=/" target="_blank">haciendo clic aquí</a> para consultar con detalle el proceso de research.
             </div>
         </div>
     </div>
@@ -102,15 +98,38 @@
 <div class="container my-5 py-0 py-lg-5">
     <div class="row">
         <div class="col-12 col-lg-2 offset-lg-3 pe-4 pb-3 pb-lg-0 text-lg-end h3">
-            Paso 2        
+            Diseño       
         </div>
         <div class="col-12 col-lg-7">
             <div class="text py-0 py-lg-2 ps-3 info-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus commodi cupiditate dolorum, blanditiis totam voluptatem odit ipsam ratione est reiciendis. Voluptatem quibusdam, iusto deleniti eveniet molestiae nemo id facere commodi.
-                Omnis molestiae, voluptas illo natus eveniet vero cumque perspiciatis numquam doloremque, quaerat quod rem recusandae excepturi voluptatum minus velit architecto nemo tenetur temporibus voluptatibus. Veritatis impedit delectus cupiditate excepturi blanditiis?
-                Quia maiores adipisci voluptatibus quae velit ipsa aut, optio temporibus sint quos dolorum sit fugit sapiente saepe. Nobis natus, eligendi fugiat quasi perspiciatis a sit, voluptate nulla doloribus, quibusdam in!
-                Soluta corporis cupiditate, aut odit magni minus! Laborum libero, debitis vel harum voluptatum voluptatem aliquam dolorum cum suscipit animi tempora dicta perferendis qui expedita neque, dolores cupiditate aut! Fugit, omnis!
-                Odit facere sunt ipsa obcaecati. Magnam vero similique, provident labore consequuntur, repudiandae a, soluta reprehenderit inventore nihil unde molestiae esse ipsa. Maxime hic quaerat, sit sunt numquam iste nesciunt repellat?
+                Con el fin de crear un sitio web consistente y estructurado, se realizó todo un proceso de diseño <span class="highlight-body">utilizando figma como herramienta principal</span>. Inicialmente se estableció el <span class="fw-bold">sistema de diseño</span> en el cual se tuvieron en cuenta elementos como el grid o la retícula para las diversas versiones responsive del sitio web, las tipografías, los colores, los iconos, las imágenes y los componentes a utilizar. A continuación, se crearon unos <span class="fw-bold">wireframes</span> que permitieron tener una previsualización del esquema del sitio web y la ubicación de sus elementos. Posteriormente se generó un <span class="fw-bold">prototipado del sitio web</span> para obtener una visualización más aproximada al resultado final que tendría la bitácora.<br><br>
+                <span class="h5">Sistema de diseño</span>
+                <div class="row gx-0 pt-3">
+                    <div class="col-12 col-md-6">
+                        <div class="fw-bold">Colores</div>
+                        <div class="row gx-0 py-2">
+                            <div class="col-4">
+                                <div class="color mx-auto" style="background-color:#E59500;"></div>
+                                <div class="text-center pt-1">#E59500</div>
+                            </div>
+                            <div class="col-4">
+                                <div class="color mx-auto" style="background-color:#37323E;"></div>
+                                <div class="text-center pt-1">#37323E</div>
+                            </div>
+                            <div class="col-4">
+                                <div class="color mx-auto" style="background-color:#6D6A75;"></div>
+                                <div class="text-center pt-1">#6D6A75</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 pt-3 pt-md-0 ps-0 ps-md-5">
+                        <div class="fw-bold">Tipografías</div>
+                        <div class="pt-1"><img src="../img/fuentes_bitacora.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="pt-3">
+                    Puedes ingresar al archivo figma del proyecto <a href="https://www.figma.com/file/RJVS9KeLCM9gS6KACn0wV4/Bit%C3%A1cora?node-id=0%3A1" target="_blank">haciendo clic aquí</a> para consultar con detalle el proceso de diseño.
+                </div>
             </div>
         </div>
     </div>
