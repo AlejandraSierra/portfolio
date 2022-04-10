@@ -10,7 +10,7 @@
             <div class="row gx-0 align-content-end bg-container" style="background-image: url('../img/bitacora_header.jpg');">
                 <div class="col-12 px-5"> 
                     <div class="text-center"><span class="px-3 highlight display-1 text-primary">Bitácora</span></div>
-                    <div class="py-2 text-center"><span class="px-2 highlight lead">Desarrollo de sitio web para la gestión de bitácoras de viaje.</span></div>
+                    <div class="py-2 text-center"><span class="px-2 highlight lead">Diseño y desarrollo de sitio web para la gestión de bitácoras de viaje.</span></div>
                 </div>
                 <div class="col-12 px-5 pb-4 text-end">
                     <a href="#" class="project-btn">Visitar Web<i class="fa-solid fa-arrow-right ps-2"></i></a>
@@ -29,7 +29,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-3 py-4 py-lg-0 offset-lg-1">
             <div class="caption">Rol en el proyecto</div>
-            <div class="text">Desarrollador Web | Diseñador Web | UX Researcher</div>
+            <div class="text">Desarrollador Web Fullstack | Diseñador Web | UX Researcher</div>
             <div class="caption mt-3">Herramientas Utilizadas</div>
             <div class="text">HTML5 | CSS3 | JavaScript | PHP | MySQL | Figma | Miro</div>
         </div>
@@ -57,7 +57,7 @@
         <div class="col-12 col-lg-7">
             <div class="text py-0 py-lg-2 ps-3 info-text">
                 Bitácora se ha creado como un proyecto final para aprobar el módulo de desarrollo web fullstack, se han incorporado elementos de UX research y UI design con el fin de hacer el proyecto mucho más completo. La idea surge a partir de mi interés personal en los viajes, siendo esta una de mis actividades preferidas. Considero que viajar no solo altera la rutina, sino que además permite conocer otras culturas, otros lugares y vivir experiencias inolvidables. Siempre quise hacer un diario o bitácora donde relatar acontecimientos que ocurren durante los viajes para recordar cada detalle, así que ¿Por qué no hacerlo en un ambiente web y extenderlo a otros usuarios interesados?<br><br>
-                Así pues, el objetivo del proyecto es crear un sitio web en el que cada usuario tenga su propio espacio privado en el cual pueda crear viajes o categorías que recopilen historias o entradas, en estas podrán escribir los relatos sobre sus experiencias personales para luego poder consultarlas y rememorar aquellos momentos. Adicionalmente, las imágenes de las historias se agruparán de forma automática creando una galería categorizada por viajes y se podrán gestionar tanto viajes como entradas con el sistema CRUD (Create, read, update and delete).
+                Así pues, el objetivo del proyecto es <span class="highlight-body">crear un sitio web en el que cada usuario tenga su propio espacio privado en el cual pueda crear viajes o categorías que recopilen historias o entradas, en estas podrán escribir los relatos sobre sus experiencias personales para luego poder consultarlas y rememorar aquellos momentos</span>. Adicionalmente, las imágenes de las historias se agruparán de forma automática creando una galería categorizada por viajes y se podrán gestionar tanto viajes como entradas con el sistema CRUD (Create, read, update and delete).
             </div>
         </div>
     </div>
@@ -91,7 +91,7 @@
 <!-- Paso | Derecha -->
 
 <div class="row gx-0">
-    <div class="col-12 container-50-vh py-5 bg-parallax" style="background-image: url('../img/bitacora_header.jpg');">
+    <div class="col-12 container-50-vh py-5 bg-parallax" style="background-image: url('../img/bitacora_diseño.jpg');">
     </div>
 </div>
 
@@ -135,16 +135,62 @@
     </div>
 </div>
 
+<!-- Paso | Izquierda -->
+
+<div class="row gx-0">
+    <div class="col-12 container-50-vh py-5 bg-parallax" style="background-image: url('../img/bitacora_desarrollo.jpg');">
+    </div>
+</div>
+
+<div class="container my-5 py-0 py-lg-5">
+    <div class="row">
+        <div class="col-12 col-lg-2 pe-4 pb-3 pb-lg-0 text-lg-end h3">
+            Desarrollo    
+        </div>
+        <div class="col-12 col-lg-7">
+            <div class="text py-0 py-lg-2 ps-3 info-text">
+                Teniendo en cuenta las etapas realizadas previamente, se realizó el <span class="fw-bold">proceso de desarrollo</span> llevando el prototipo a la web utilizando código en <span class="highlight-body">HTML5, CSS3, JavaScript, PHP y bases de datos con MySQL</span>.<br><br>
+                El sitio web está compuesto por una <span class="fw-bold">prehome</span> que corresponde al index de la bitácora, en esta vista se dispone información general a cerca de las principales funcionalidades del sitio y contiene los botones de registro en ingreso, asimismo, incluye enlaces a redes sociales, la siguiente página corresponde al <span class="fw-bold">registro e inicio de sesión</span>, dos vistas distintas interconectadas entre sí que permiten al usuario crear su cuenta o ingresar a la zona privada del sitio web.<br><br>
+                Una vez iniciada la sesión, el usuario tendrá una vista de <span class="fw-bold">inicio o home</span> en la cual encontrará el menú de navegación lateral, una cabecera que muestra un mensaje de bienvenida y botones para crear viajes e historias, en este panel verá los últimos 3 viajes y 3 historias que ha registrado. Al hacer clic en <span class="fw-bold">nuevo viaje</span>, aparecerá un formulario que captura la información sobre el viaje (Nombre, fecha, imagen y descripción), este funciona como una categoría que puede contener varias historias o entradas, sin embargo, no puede haber historias sin estar relacionadas a algún viaje; para registrarlas, el usuario deberá clicar el botón “<span class="fw-bold">Nueva entrada</span>” que mostrará un formulario diferente y permitirá guardar la información de tipo texto que el usuario quiera introducir.<br><br>
+                Existe una vista llamada “<span class="fw-bold">Mis entradas</span>”, en la cual se recopilan y muestran todas las historias que el usuario ha introducido en la web, incluye un campo de tipo select que carga únicamente las historias del viaje seleccionado, cada una de estas historias, incluye un enlace que lleva a la “<span class="fw-bold">Vista de entrada</span>”, allí se cargará la información que contiene la base de datos sobre la historia seleccionada y la dispone de tal forma que el usuario pueda verla organizada. Adicionalmente, incluye un botón que permite editar la historia y otro que le permite eliminarla temporalmente, cambiando su estado y enviándola a la papelera donde eventualmente la podrá recuperar.<br><br>
+                Si el usuario presiona el botón “<span class="fw-bold">Editar entrada</span>”, será dirigido a una vista de formulario en la cual cargarán los datos de la historia en cuestión, el usuario podrá modificar cualquiera de los datos y guardar o descartar los cambios realizados.<br><br>
+                Cada viaje y entrada contiene en la base de datos un campo booleano denominado estado, en el cual al ser verdadero se muestra en diversas vistas del sitio web, sin embargo, al estar en falso, se muestra únicamente en la sección “<span class="fw-bold">Papelera</span>” donde se muestran algunos datos dispuestos en una tabla, en esta, el usuario tiene la posibilidad de restaurar el elemento o eliminarlo definitivamente de la base de datos sin posibilidad de recuperarlo posteriormente.<br><br>
+                Por último, existe una sección extra denominada “<span class="fw-bold">Galería</span>” en la cual se puede visualizar una recopilación de todas las imágenes que se han asignado a las historias. Mediante un campo de tipo select, al igual que en las entradas, se puede seleccionar un viaje para ver únicamente las imágenes de dicho viaje.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Aprendizaje | Centro -->
+
+<div class="row gx-0">
+    <div class="col-12 container-50-vh py-5 bg-parallax" style="background-image: url('../img/bitacora_aprendizaje.jpg');">
+    </div>
+</div>
+
+<div class="container my-5 py-0 py-lg-5">
+    <div class="row">
+        <div class="col-12 col-lg-4 pe-5 pb-3 pb-lg-0 text-lg-end h3">
+            Aprendizaje        
+        </div>
+        <div class="col-12 col-lg-7">
+            <div class="text py-0 py-lg-2 ps-3 info-text">
+                Este proyecto es el primero que he desarrollado por completo <span class="highlight-body">desde la ideación hasta la construcción del front-end y back-end</span> por lo que el aprendizaje que he obtenido en su ejecución ha sido bastante significativo. Teniendo en cuenta algunas restricciones impuestas por parte de la escuela, no fue posible utilizar ningún framework para el desarrollo del sitio, por lo que sobre todo en el tema de diseño responsive fue bastante enriquecedor; en el planteamiento del proyecto no se incluía la parte de research, sin embargo, quise llevarlo a cabo como una forma de abordarlo de la manera más limpia posible y considero que valió completamente la pena ya que de esta forma tuve más oportunidades de plantear claramente la idea (ya que el tema era libre) y las funcionalidades. Considero que aún hay ciertos elementos que se pueden mejorar y espero en el futuro cercano contar con la disponibilidad de tiempo para hacerlo, así eventualmente será posible sacar este proyecto a un ambiente de producción que pueda servir a usuarios reales.
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Siguiente proyecto -->
 <div class="row p-5 gx-0 nav-projects align-items-center">
     <div class="col-3 text-start">
         <a href="../index.html#portafolio" class="project-btn"><i class="fa-solid fa-arrow-left pe-2"></i>Portfafolio</a>
     </div>
     <div class="col-6 display-6 text-light text-center">
-        Proyecto
+        Recetario
     </div>
     <div class="col-3 text-end">
-        <a href="#" class="project-btn">Ver Proyecto<i class="fa-solid fa-arrow-right ps-2"></i></a>
+        <a href="recetario.php" class="project-btn">Ver Proyecto<i class="fa-solid fa-arrow-right ps-2"></i></a>
     </div>
 </div>
 

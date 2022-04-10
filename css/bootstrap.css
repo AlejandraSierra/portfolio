@@ -254,6 +254,7 @@ a {
   color: var(--bs-info);
   text-decoration: none;
   transition: var(--ease);
+  font-weight: 600;
 }
 a:hover {
   color: var(--bs-blue);
