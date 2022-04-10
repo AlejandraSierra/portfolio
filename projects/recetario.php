@@ -90,7 +90,7 @@
 <!-- Paso | Derecha -->
 
 <div class="row gx-0">
-    <div class="col-12 container-50-vh py-5 bg-parallax" style="background-image: url('../img/recetario_diseño.jpg');">
+    <div class="col-12 container-50-vh py-5 bg-parallax" style="background-image: url('../img/recetario_diseno.jpg');">
     </div>
 </div>
 
