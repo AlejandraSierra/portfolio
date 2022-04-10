@@ -9,11 +9,11 @@
         <div class="sticky-top container-80-vh py-5">
             <div class="row gx-0 align-content-end bg-container" style="background-image: url('../img/appio_header.jpg');">
                 <div class="col-12 px-5"> 
-                    <div class="text-center"><span class="px-3 highlight display-1 text-primary">Appio</span></div>
-                    <div class="py-2 text-center"><span class="px-2 highlight lead">Aplicación móvil para la gestión de huertos en casa.</span></div>
+                    <div class="text-center"><span class="px-3 highlight display-1 text-primary">Rutinapp</span></div>
+                    <div class="py-2 text-center"><span class="px-2 highlight lead">Prototipo de aplicación de rutina personalizada.</span></div>
                 </div>
                 <div class="col-12 px-5 pb-4 text-end">
-                    <a href="../docs/documentacion_appio.pdf" target="_blank" class="project-btn">Ver documentación<i class="fa-solid fa-arrow-right ps-2"></i></a>
+                    <a href="#" target="_blank" class="project-btn">Ver documentación<i class="fa-solid fa-arrow-right ps-2"></i></a>
                 </div>
             </div>
         </div>
@@ -25,19 +25,19 @@
 <div class="container my-5 py-3 py-lg-5">
     <div class="row">
         <div class="col-12 col-lg-5 lead">
-            Appio es una aplicación móvil que permite a los usuarios gestionar huertos urbanos y aprender a mantener cultivos en casa con el fin de producir alimentos por sí mismos.
+            Rutinapp es el prototipo de una aplicación que permite a los usuarios establecer rutinas y hábitos personalizables de acuerdo con sus gustos y motivaciones personales.
         </div>
         <div class="col-12 col-md-6 col-lg-3 py-4 py-lg-0 offset-lg-1">
             <div class="caption">Rol en el proyecto</div>
-            <div class="text">Desarrollador Front-end | UX Researcher | UI Designer</div>
+            <div class="text">UX Researcher | UI Designer </div>
             <div class="caption mt-3">Herramientas Utilizadas</div>
-            <div class="text">Ionic | SCSS | Angular | Miro | Figma | InDesign | Infogram</div>
+            <div class="text">Miro | Figma | InDesign | Infogram</div>
         </div>
         <div class="col-12 col-md-6 col-lg-3 py-0 py-md-4 py-lg-0">
             <div class="caption">Habilidades</div>
-            <div class="text">Diseño web | Maquetación | Prototipado | UX Research | UI Design | Design Thinking</div>
+            <div class="text">Prototipado | UX Research | UI Design | Design Thinking</div>
             <div class="caption mt-3">Duración del proyecto</div>
-            <div class="text">+1 año</div>
+            <div class="text">2 semanas</div>
         </div>
     </div>
 </div>
@@ -57,10 +57,10 @@
         <div class="col-12 col-lg-7">
             <div class="text py-0 py-lg-2 ps-3 info-text">
                 Appio <span class="highlight-body">nace como un proyecto independiente y autodidacta</span> en el 2020. El equipo de trabajo está compuesto por dos personas muy cercanas que trabajan en el área de tecnología y yo, que en aquel momento me encontraba realizando mis estudios de diseño y me encargué justamente de esta parte. <span class="highlight-body">Quisimos desarrollar una aplicación útil que nos permitiera aprender y adquirir nuevas habilidades</span>, por lo que estuvimos trabajando en ella de forma autónoma en nuestros tiempos libres.<br><br>
-                Posteriormente, durante la realización del máster en desarrollo y conceptualización web, para el módulo de UX/UI como idea de proyecto final retomé Appio, aplicando todos los conocimientos adquiridos en user expreience y user interface que permitieron dar una forma más estructurada a lo que habíamos adelantado previamente, convirtiéndose en una oportunidad excelente para reestructurar la aplicación y hacerle los cambios necesarios para mejorarla.<br><br>
+                Posteriormente, durante la realización del máster en desarrollo y conceptualización web, para el módulo de UX/UI como idea de proyecto final retomé Appio, aplicando todos los conocimientos adquiridos en user expreience y user interface que permitieron dar una forma más estructurada a lo que habíamos adelantado previamente.<br><br>
                 El tema de la aplicación surge gracias al interés de muchas personas por alimentarse mejor, de forma autónoma cultivando sus propios alimentos en casa (lugares generalmente urbanos, cerrados y con espacio límitado) y el desconocimiento de la mayoría de en cuanto a creación, manejo y mantenimiento de cultivos.<br><br>
                 Así pues, a partir de la metodología ágil <span class="fw-bold">design thinking</span>, se ha investigado cuales son las necesidades concretas que tienen las personas al gestionar sus huertos en casa, para intentar solventarlas a partir de diversas herramientas que podrían tener a mano con el uso de nuestra aplicación móvil.<br><br>
-                Para ejecutar todas las etapas del proceso UX/UI, se han utilizado diversas estrategias a partir de elementos “entregables” que permiten mantener un correcto flujo del proceso y la obtención de información útil para tener en cuenta en el diseño y posterior desarrollo de la aplicación centrándose en el usuario y aportando soluciones innovadoras a sus problemas.  
+                Para ejecutar todas las etapas del proceso, se han utilizado diversas estrategias a partir de elementos “entregables” que permiten mantener un correcto flujo del proceso y la obtención de información útil para tener en cuenta en el diseño y posterior desarrollo de la aplicación centrándose en el usuario y aportando soluciones innovadoras a sus problemas.  
             </div>
         </div>
     </div>
@@ -135,7 +135,7 @@
 <!-- Paso | Derecha -->
 
 <div class="row gx-0">
-    <div class="col-12 container-50-vh py-5 bg-parallax" style="background-image: url('../img/appio_diseno.jpg');">
+    <div class="col-12 container-50-vh py-5 bg-parallax" style="background-image: url('../img/appio_diseño.jpg');">
     </div>
 </div>
 
@@ -172,31 +172,8 @@
                     </div>
                 </div>
                 <div class="pt-3">
-                    Me gustaría mencionar que los recursos gráficos que ilustran los vegetales, frutas, aromáticas y demás fueron creadas por mí misma utilizando Adobe Illustrator.<br><br>
                     Si quieres conocer más detalles sobre el proceso de diseño, puedes ingresar a la documentación del proyecto <a href="../docs/documentacion_appio.pdf" target="_blank">haciendo clic aquí</a>. Si quieres ver el prototipo en figma, puedes ingresar al archivo <a href="https://www.figma.com/proto/p48oDlCWdR9uCPOFFMBaBR/Huerto-en-Casa-Alejandra-Sierra?node-id=28%3A1162&viewport=34" target="_blank">haciendo clic aquí</a>.
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Paso | Izquierda -->
-
-<div class="row gx-0">
-    <div class="col-12 container-50-vh py-5 bg-parallax" style="background-image: url('../img/appio_desarrollo.jpg');">
-    </div>
-</div>
-
-<div class="container my-5 py-0 py-lg-5">
-    <div class="row">
-        <div class="col-12 col-lg-2 pe-4 pb-3 pb-lg-0 text-lg-end h3">
-            Desarrollo    
-        </div>
-        <div class="col-12 col-lg-7">
-            <div class="text py-0 py-lg-2 ps-3 info-text">
-                Gracias a la ejecución del proceso UX/UI, se hizo mucho más sencillo realizar la planificación de la aplicación, que, si bien ya contaba con ciertos adelantos, fue reestructurada y mejorada con los resultados del proceso.<br><br>
-                Para el desarrollo de Appio se utilizaron Ionic y Angular como herramientas principales, mi rol en el proyecto estuvo principalmente relacionado con el front-end utilizando las herramientas propias del framework y por supuesto poniendo en práctica los conocimientos en HTML, CSS y SCSS. Si bien la gran mayoría del back-end fue desarrollada por mis compañeros, después de finalizar el máster y entender un poco más la parte del back me involucré un poco realizando algunas acciones en typescript y base de datos. Con el fin de mantener el control de versiones del proyecto y poder compartir los archivos de una manera óptima, utilizamos Github.<br><br>
-                Posteriormente cargamos la aplicación a la play store de Google, que en este momento se encuentra en versión de prueba mientras realizamos los ajustes finales, por lo que esperamos que próximamente se encuentre disponible al público para su descarga.
             </div>
         </div>
     </div>
@@ -216,9 +193,9 @@
         </div>
         <div class="col-12 col-lg-7">
             <div class="text py-0 py-lg-2 ps-3 info-text">
-                Con este proyecto tuve la oportunidad de trabajar con diversos recursos propios del design thinking, lo cual fue muy enriquecedor para mi proceso de aprendizaje, en especial la planeación y aplicación de encuestas a los potenciales usuarios; así mismo, utilicé bastante figma por lo que tuve la oportunidad de descubrir muchas de sus funcionalidades y ciertos “trucos” que resultan bastante útiles.<br><br>
-                En cuanto al desarrollo, fue muy interesante tener la posibilidad de explorar y manejar herramientas como Angular e Ionic que me permitieron ampliar los conocimientos, adquirir cierta soltura y experiencia en su manejo.<br><br>
-                Considero muy importante resaltar que más allá del aspecto técnico, también tuve un aprendizaje personal, ya que pude profundizar sobre el tema de los huertos en casa, la importancia de los alimentos orgánicos y me quedó sumamente claro que el tiempo y los recursos invertidos en la etapa de UX/UI son realmente importantes para la estructura de un proyecto web o aplicación.
+                Gracias a la ejecución del proceso UX/UI en el proyecto, se hizo mucho más sencillo realizar la planificación de la aplicación, que, si bien ya contaba con ciertos adelantos, fue reestructurada y mejorada con los resultados del proceso. Pude trabajar con diversos recursos propios del design thinking, lo cual fue muy enriquecedor para mi proceso de aprendizaje, en especial la planeación y aplicación de encuestas a los potenciales usuarios; así mismo, utilicé bastante figma por lo que tuve la oportunidad de descubrir muchas de sus funcionalidades y ciertos “trucos” que resultan bastante útiles.<br><br>
+                Considero muy importante resaltar que más allá del aspecto técnico, también tuve un aprendizaje personal, ya que pude profundizar sobre el tema de los huertos en casa, la importancia de los alimentos orgánicos y me quedó sumamente claro que el tiempo y los recursos invertidos en la etapa de UX/UI son realmente importantes para la estructura de un proyecto web o aplicación.<br><br>
+                Este proyecto al ser propio, continúo con el proceso de desarrollo que puedes consultar <a href="appio-dev.php">haciendo clic aquí</a>.
             </div>
         </div>
     </div>
@@ -230,10 +207,10 @@
         <a href="../index.html#portafolio" class="project-btn"><i class="fa-solid fa-arrow-left pe-2"></i>Portfafolio</a>
     </div>
     <div class="col-6 display-6 text-light text-center">
-        Woodies
+        Appio Desarrollo
     </div>
     <div class="col-3 text-end">
-        <a href="woodies.php" class="project-btn">Ver Proyecto<i class="fa-solid fa-arrow-right ps-2"></i></a>
+        <a href="appio-dev.php" class="project-btn">Ver Proyecto<i class="fa-solid fa-arrow-right ps-2"></i></a>
     </div>
 </div>
 
