@@ -172,7 +172,7 @@
         </div>
         <div class="col-12 col-lg-7">
             <div class="text py-0 py-lg-2 ps-3 info-text">
-            Este proyecto al ser de aprendizaje tenía diversas indicaciones y restricciones que se debían cumplir, como por ejemplo la imposibilidad de utilizar HTML dinámico, PHP o bases de datos, así pues, fue bastante significativo para manejar archivos de tipo JSON que son la base del proyecto, ya que gracias a ellos se hace posible obtener los datos de las recetas; tampoco era posible utilizar frameworks por lo que la estructura HTML está construida de forma autónoma, lo cual incrementa la habilidad de manejar esta herramienta.
+                Gracias a este proyecto pude ampliar la visión y explorar un poco sobre el campo de la enfermería, viendo un poco la labor tan importante que cumplen estas personas en nuestra sociedad llegando incluso al punto de sentir admiración por ellos. En el aspecto técnico, pude poner en práctica diferentes herramientas para llevar a cabo el research de la cual quisiera resaltar en especial la entrevista que fue bastante útil para el desarrollo del proyecto, asimismo, pude ampliar mis conocimientos prácticos en Figma y conocí otras herramientas útiles como gitbook y whimsical.
             </div>
         </div>
     </div>
@@ -187,7 +187,7 @@
         Appio
     </div>
     <div class="col-3 text-end">
-        <a href="appio-uxui.php" class="project-btn">Ver Proyecto<i class="fa-solid fa-arrow-right ps-2"></i></a>
+        <a href="appio.php" class="project-btn">Ver Proyecto<i class="fa-solid fa-arrow-right ps-2"></i></a>
     </div>
 </div>
 
