@@ -1,4 +1,6 @@
 <?php
+    $nombrePagina = "Woodies";
+
     // Header y navegación
     require "../layout/navegacion.php"; 
 ?>
@@ -103,7 +105,7 @@
 </div>
 
 <!-- Siguiente proyecto -->
-<div class="row p-5 gx-0 nav-projects align-items-center">
+<div class="row px-2 py-5 p-md-5 gx-0 nav-projects align-items-center">
     <div class="col-3 text-start">
         <a href="../index.html#portafolio" class="project-btn"><i class="fa-solid fa-arrow-left pe-2"></i>Portfafolio</a>
     </div>

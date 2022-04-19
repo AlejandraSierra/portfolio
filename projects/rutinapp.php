@@ -1,4 +1,6 @@
 <?php
+    $nombrePagina = "Rutinapp";
+
     // Header y navegación
     require "../layout/navegacion.php"; 
 ?>
@@ -13,7 +15,7 @@
                     <div class="py-2 text-center"><span class="px-2 highlight lead">Prototipo de aplicación de rutina personalizada.</span></div>
                 </div>
                 <div class="col-12 px-5 pb-4 text-end">
-                    <a href="https://pasteapp.com/p/XAxdN6IajGY/s/Ol2TgQMhTU6?view=eqkROwxmXMa" target="_blank" class="project-btn">Ver presentación<i class="fa-solid fa-arrow-right ps-2"></i></a>
+                    <a href="https://pasteapp.com/p/XAxdN6IajGY/s/Ol2TgQMhTU6?view=eqkROwxmXMa" target="_blank" class="project-btn text-white">Ver presentación<i class="fa-solid fa-arrow-right ps-2"></i></a>
                 </div>
             </div>
         </div>
@@ -197,7 +199,7 @@
 </div>
 
 <!-- Siguiente proyecto -->
-<div class="row p-5 gx-0 nav-projects align-items-center">
+<div class="row px-2 py-5 p-md-5 gx-0 nav-projects align-items-center">
     <div class="col-3 text-start">
         <a href="../index.html#portafolio" class="project-btn"><i class="fa-solid fa-arrow-left pe-2"></i>Portfafolio</a>
     </div>

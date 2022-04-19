@@ -1,3 +1,18 @@
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #E6E6E6; 
+}
+::-webkit-scrollbar-thumb {
+  background: var(--bs-primary); 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #003147; 
+}
+
 /* Barra de navegación */
 body {
   position: relative;
@@ -208,3 +223,12 @@ body {
     background-position: top;
   }
  }
+
+@media (max-width: 575.98px) { 
+  .nav-projects a {
+    font-size: 14px;
+  }
+  .nav-projects :nth-child(2) {
+    font-size: 20px;
+  }
+}
