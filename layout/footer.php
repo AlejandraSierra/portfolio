@@ -5,9 +5,9 @@
             Alejandra Sierra | 2022
         </div>
         <div class="col-12 col-lg-6 pe-lg-5 text-center text-lg-end order-1 order-lg-2">
-            <a href="../policies/aviso_legal.php">Aviso Legal</a> |
-            <a href="../policies/politica_privacidad.php">Política de Privacidad</a> |
-            <a href="../policies/politica_cookies.php">Política de Cookies</a>
+            <a href="../policies/aviso_legal.php"><?php echo $lang['foo_aviso']?></a> |
+            <a href="../policies/politica_privacidad.php"><?php echo $lang['foo_privacidad']?></a> |
+            <a href="../policies/politica_cookies.php"><?php echo $lang['foo_cookies']?></a>
         </div>
     </div>
 

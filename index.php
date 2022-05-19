@@ -1,5 +1,11 @@
+<?php
+    include "config.php";
+
+    $rutaRelativa = 'index.php';
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +14,7 @@
     <meta name="description"
         content="Portafolio de proyectos web front-end y UX/UI de Alejandra Sierra, diseñadora visual con especialización en desarrollo y conceptualización web." />
     <meta name="author" content="Alejandra Sierra" />
-    <title>Alejandra Sierra | Portafolio</title>
+    <title>Alejandra Sierra | <?php echo $lang['title']?></title>
     <meta property="og:title" content="Alejandra Sierra | Portafolio" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://asierra-design.com/" />
@@ -37,7 +43,7 @@
     <div class="w-100 px-2 px-md-5" id="navbar">
         <nav class="navbar navbar-expand-lg navbar-light barra-navegacion">
             <div class="container-fluid">
-                <a class="navbar-brand order-lg-2" href="index.html"><img src="img/logo.svg"
+                <a class="navbar-brand order-lg-2" href="index.php"><img src="img/logo.svg"
                         alt="Alejandra Sierra _Design"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
@@ -47,18 +53,27 @@
                 <div class="collapse navbar-collapse order-lg-1" id="navbarTogglerDemo01">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 h6">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#home">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="#home"><?php echo $lang['nav_item1']?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">Sobre Mi</a>
+                            <a class="nav-link" href="#about"><?php echo $lang['nav_item2']?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#portafolio">Portafolio</a>
+                            <a class="nav-link" href="#portafolio"><?php echo $lang['nav_item3']?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contacto</a>
+                            <a class="nav-link" href="#contact"><?php echo $lang['nav_item4']?></a>
                         </li>
                     </ul>
+                    <div class="dropdown">
+                        <button class="btn btn-lang dropdown-toggle ps-2" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-globe"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-lang" aria-labelledby="dropdownMenu2">
+                          <li><button class="dropdown-item" type="button"><a href="<?php echo $rutaRelativa.'?lang=es' ?>" class="nav-link">Español</a></button></li>
+                          <li><button class="dropdown-item" type="button"><a href="<?php echo $rutaRelativa.'?lang=en' ?>" class="nav-link">English</a></button></li>
+                        </ul>
+                      </div>
                 </div>
             </div>
         </nav>
@@ -77,13 +92,12 @@
             <div class="row gx-0 h-100 px-3 px-lg-5">
                 <div class="py-5 align-self-end">
                     <div class="display-3 mt-3 mt-lg-5">
-                        ¡Hola! Soy Alejandra Sierra
+                        <?php echo $lang['saludo']?>
                     </div>
                     <div class="lead mt-3">
-                        Diseñadora visual especialista en diseño, desarrollo web, UX/UI y ¡Me encantaría hacer parte de
-                        tu equipo de trabajo!
+                        <?php echo $lang['mensaje']?>
                     </div>
-                    <a href="#about"><button type="button" class="btn btn-primary btn-lg mt-4">Conóceme<i
+                    <a href="#about"><button type="button" class="btn btn-primary btn-lg mt-4"><?php echo $lang['btn_conoceme'] ?><i
                                 class="fa-solid fa-arrow-right ps-2"></i></button></a>
                 </div>
             </div>
@@ -102,73 +116,53 @@
         <div class="col-12 col-lg-6 order-2">
             <div class="row gx-0 h-100 px-3 px-lg-5">
                 <div class="py-5">
-                    <div class="display-6 mb-2">Sobre Mi...</div>
+                    <div class="display-6 mb-2"><?php echo $lang['sobre_mi']?></div>
                     <div class="mb-3">
-                        Inicié en el mundo del diseño movida por la pasión y la curiosidad que me generaban las
-                        herramientas tecnológicas y todo lo que era posible hacer con ellas; Empíricamente, aprendí a
-                        manejar algunas para mis proyectos personales y luego, decidí estudiarlo de manera profesional,
-                        donde descubrí el apasionante mundo del desarrollo web. <br><br>
-                        Pongo a tu disposición mis conocimientos especializados en diseño y desarrollo web centrado en
-                        el usuario (UX/UI), me encantaría formar parte de tu equipo de trabajo para contribuir en el
-                        desarrollo
-                        de tus proyectos corporativos y seguir creciendo juntos.<br><br>
-                        Entiendo que cada proyecto es único y, por tanto, me gusta conocer a fondo todos los detalles
-                        para
-                        poder implicarme en cualquier etapa del mismo; Considero que el compromiso, la disciplina y la
-                        responsabilidad son claves para alcanzar los objetivos, el mío, es aprender al máximo de la mano
-                        de los
-                        mejores del sector.
+                        <?php echo $lang['texto_sobre_mi']?>
                     </div>
                     <div class="h3 py-4">
-                        Habilidades
+                        <?php echo $lang['habilidades']?>
                     </div>
 
                     <div class="row align-items-stretch pb-4 px-3 px-lg-0">
                         <div class="col-12 col-md-4 pe-3">
-                            <div class="h5 text-md-end pb-2 pb-lg-0">Front-end</div>
+                            <div class="h5 text-md-end pb-2 pb-lg-0"><?php echo $lang['hab_cat1']?></div>
                         </div>
                         <div class="col-6 col-md-4 ps-4 lead info-skill">
-                            HTML 5<br>
-                            CSS / SCSS<br>
-                            JavaScript<br>
-                            Angular<br>
-                            TypeScript
+                            <?php echo $lang['hab_cat1_info1']?>
                         </div>
                         <div class="col-6 col-md-4 ps-4 lead">
-                            Git / Gitlab<br>
-                            Wordpress<br>
-                            jQuery<br>
-                            SaaS<br>
-                            Php
+                            <?php echo $lang['hab_cat1_info2']?>
                         </div>
                     </div>
 
                     <div class="row align-items-stretch pb-4 px-3 px-lg-0">
                         <div class="col-12 col-md-4 pe-3">
-                            <div class="h5 text-md-end pb-2 pb-lg-0">UX/UI</div>
+                            <div class="h5 text-md-end pb-2 pb-lg-0"><?php echo $lang['hab_cat2']?></div>
                         </div>
                         <div class="col-12 col-md-8 ps-4 lead info-skill">
-                            Figma<br>
-                            Adobe XD<br>
-                            Sistemas de Diseño
+                            <?php echo $lang['hab_cat2_info2']?>
                         </div>
                     </div>
 
                     <div class="row align-items-stretch pb-4 px-3 px-lg-0">
                         <div class="col-12 col-md-4 pe-3">
-                            <div class="h5 text-md-end pb-2 pb-lg-0">Diseño</div>
+                            <div class="h5 text-md-end pb-2 pb-lg-0"><?php echo $lang['hab_cat3']?></div>
                         </div>
                         <div class="col-12 col-md-8 ps-4 lead info-skill">
-                            Adobe Photoshop<br>
-                            Adobe Illustrator<br>
-                            Adobe InDesign<br>
-                            Adobe Premier Pro
+                            <?php echo $lang['hab_cat3_info3']?>
                         </div>
                     </div>
 
-                    <a href="docs/cv_alejandra_sierra.pdf" target="_blank"><button type="button"
-                            class="btn btn-primary mt-2">Descargar CV<i
-                                class="fa-solid fa-arrow-right ps-2"></i></button></a>
+                    <a 
+                        <?php if($_SESSION['lang'] == 'es') {
+                            echo 'href="docs/cv_alejandra_sierra.pdf"';
+                        } else if($_SESSION['lang'] == 'en') {
+                            echo 'href="docs/ecv_alejandra_sierra.pdf"';
+                        } ?>
+                    target="_blank"><button type="button"
+                    class="btn btn-primary mt-2"><?php echo $lang['btn_cv'] ?>
+                    <i class="fa-solid fa-arrow-right ps-2"></i></button></a>
                 </div>
             </div>
         </div>
@@ -178,22 +172,22 @@
 
     <div class="row gx-0 p-0 p-lg-5" id="portafolio">
         <div class="col-12 px-3 px-lg-5">
-            <div class="display-6 text-center mt-0 mt-lg-5">Portafolio</div>
+            <div class="display-6 text-center mt-0 mt-lg-5"><?php echo $lang['portafolio']?></div>
             <ul class="nav nav-pills h5 mb-3 pt-5 pb-4 mx-2 justify-content-center tablist" id="pills-tab"
                 role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="pills-todos-tab" data-bs-toggle="pill"
                         data-bs-target="#pills-todos" type="button" role="tab" aria-controls="pills-todos"
-                        aria-selected="true">Todos</button>
+                        aria-selected="true"><?php echo $lang['pt_todo']?></button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="pills-frontend-tab" data-bs-toggle="pill"
                         data-bs-target="#pills-frontend" type="button" role="tab" aria-controls="pills-frontend"
-                        aria-selected="false">Front-end</button>
+                        aria-selected="false"><?php echo $lang['pt_front']?></button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="pills-uxui-tab" data-bs-toggle="pill" data-bs-target="#pills-uxui"
-                        type="button" role="tab" aria-controls="pills-uxui" aria-selected="false">UX/UI</button>
+                        type="button" role="tab" aria-controls="pills-uxui" aria-selected="false"><?php echo $lang['pt_ux']?></button>
                 </li>
             </ul>
 
@@ -207,14 +201,14 @@
                                     <img src="img/bitacora_portfolio.jpg" alt="" class="img-fluid project-img">
                                     <div class="d-none d-lg-block project-overlay">
                                         <div class="project-text flex-column">
-                                            <p class="h5">Bitácora</p>
-                                            <a href="projects/bitacora.php" class="project-btn">ver proyecto<i
+                                            <p class="h5"><?php echo $lang['pj_bitacora'] ?></p>
+                                            <a href="projects/bitacora.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                     class="fa-solid fa-arrow-right ps-2"></i></a>
                                         </div>
                                     </div>
                                     <div class="d-block d-lg-none mobile-project flex-column p-4">
-                                        <p class="h5">Bitácora</p>
-                                        <a href="projects/bitacora.php" class="project-btn">ver proyecto<i
+                                        <p class="h5"><?php echo $lang['pj_bitacora'] ?></p>
+                                        <a href="projects/bitacora.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                 class="fa-solid fa-arrow-right ps-2"></i></a>
                                     </div>
                                 </div>
@@ -224,14 +218,14 @@
                                     <img src="img/recetario_portfolio.jpg" alt="" class="img-fluid project-img">
                                     <div class="d-none d-lg-block project-overlay">
                                         <div class="project-text flex-column">
-                                            <p class="h5">Recetas Veggie</p>
-                                            <a href="projects/recetario.php" class="project-btn">ver proyecto<i
+                                            <p class="h5"><?php echo $lang['pj_recetario'] ?></p>
+                                            <a href="projects/recetario.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                     class="fa-solid fa-arrow-right ps-2"></i></a>
                                         </div>
                                     </div>
                                     <div class="d-block d-lg-none mobile-project flex-column p-4">
-                                        <p class="h5">Recetas Veggie</p>
-                                        <a href="projects/recetario.php" class="project-btn">ver proyecto<i
+                                        <p class="h5"><?php echo $lang['pj_recetario'] ?></p>
+                                        <a href="projects/recetario.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                 class="fa-solid fa-arrow-right ps-2"></i></a>
                                     </div>
                                 </div>
@@ -241,14 +235,14 @@
                                     <img src="img/appio_portfolio.jpg" alt="" class="img-fluid project-img">
                                     <div class="d-none d-lg-block project-overlay">
                                         <div class="project-text flex-column">
-                                            <p class="h5">Appio</p>
-                                            <a href="projects/appio.php" class="project-btn">ver proyecto<i
+                                            <p class="h5"><?php echo $lang['pj_appio'] ?></p>
+                                            <a href="projects/appio.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                     class="fa-solid fa-arrow-right ps-2"></i></a>
                                         </div>
                                     </div>
                                     <div class="d-block d-lg-none mobile-project flex-column p-4">
-                                        <p class="h5">Appio</p>
-                                        <a href="projects/appio.php" class="project-btn">ver proyecto<i
+                                        <p class="h5"><?php echo $lang['pj_appio'] ?></p>
+                                        <a href="projects/appio.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                 class="fa-solid fa-arrow-right ps-2"></i></a>
                                     </div>
                                 </div>
@@ -258,14 +252,14 @@
                                     <img src="img/woodies_portfolio.jpg" alt="" class="img-fluid project-img">
                                     <div class="d-none d-lg-block project-overlay">
                                         <div class="project-text flex-column">
-                                            <p class="h5">Woodies</p>
-                                            <a href="projects/woodies.php" class="project-btn">ver proyecto<i
+                                            <p class="h5"><?php echo $lang['pj_woodies'] ?></p>
+                                            <a href="projects/woodies.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                     class="fa-solid fa-arrow-right ps-2"></i></a>
                                         </div>
                                     </div>
                                     <div class="d-block d-lg-none mobile-project flex-column p-4">
-                                        <p class="h5">Woodies</p>
-                                        <a href="projects/woodies.php" class="project-btn">ver proyecto<i
+                                        <p class="h5"><?php echo $lang['pj_woodies'] ?></p>
+                                        <a href="projects/woodies.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                 class="fa-solid fa-arrow-right ps-2"></i></a>
                                     </div>
                                 </div>
@@ -275,14 +269,14 @@
                                     <img src="img/rutinapp_portfolio.jpg" alt="" class="img-fluid project-img">
                                     <div class="d-none d-lg-block project-overlay">
                                         <div class="project-text flex-column">
-                                            <p class="h5">Rutinapp</p>
-                                            <a href="projects/rutinapp.php" class="project-btn">ver proyecto<i
+                                            <p class="h5"><?php echo $lang['pj_rutinapp'] ?></p>
+                                            <a href="projects/rutinapp.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                     class="fa-solid fa-arrow-right ps-2"></i></a>
                                         </div>
                                     </div>
                                     <div class="d-block d-lg-none mobile-project flex-column p-4">
-                                        <p class="h5">Rutinapp</p>
-                                        <a href="projects/rutinapp.php" class="project-btn">ver proyecto<i
+                                        <p class="h5"><?php echo $lang['pj_rutinapp'] ?></p>
+                                        <a href="projects/rutinapp.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                 class="fa-solid fa-arrow-right ps-2"></i></a>
                                     </div>
                                 </div>
@@ -292,14 +286,14 @@
                                     <img src="img/poli_portfolio.jpg" alt="" class="img-fluid project-img">
                                     <div class="d-none d-lg-block project-overlay">
                                         <div class="project-text flex-column">
-                                            <p class="h5">Poli</p>
-                                            <a href="projects/poli.php" class="project-btn">ver proyecto<i
+                                            <p class="h5"><?php echo $lang['pj_poli'] ?></p>
+                                            <a href="projects/poli.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                     class="fa-solid fa-arrow-right ps-2"></i></a>
                                         </div>
                                     </div>
                                     <div class="d-block d-lg-none mobile-project flex-column p-4">
-                                        <p class="h5">Poli</p>
-                                        <a href="projects/poli.php" class="project-btn">ver proyecto<i
+                                        <p class="h5"><?php echo $lang['pj_poli'] ?></p>
+                                        <a href="projects/poli.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                 class="fa-solid fa-arrow-right ps-2"></i></a>
                                     </div>
                                 </div>
@@ -316,14 +310,14 @@
                                     <img src="img/bitacora_portfolio.jpg" alt="" class="img-fluid project-img">
                                     <div class="d-none d-lg-block project-overlay">
                                         <div class="project-text flex-column">
-                                            <p class="h5">Bitácora</p>
-                                            <a href="projects/bitacora.php" class="project-btn">ver proyecto<i
+                                            <p class="h5"><?php echo $lang['pj_bitacora'] ?></p>
+                                            <a href="projects/bitacora.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                     class="fa-solid fa-arrow-right ps-2"></i></a>
                                         </div>
                                     </div>
                                     <div class="d-block d-lg-none mobile-project flex-column p-4">
-                                        <p class="h5">Bitácora</p>
-                                        <a href="projects/bitacora.php" class="project-btn">ver proyecto<i
+                                        <p class="h5"><?php echo $lang['pj_bitacora'] ?></p>
+                                        <a href="projects/bitacora.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                 class="fa-solid fa-arrow-right ps-2"></i></a>
                                     </div>
                                 </div>
@@ -333,14 +327,14 @@
                                     <img src="img/recetario_portfolio.jpg" alt="" class="img-fluid project-img">
                                     <div class="d-none d-lg-block project-overlay">
                                         <div class="project-text flex-column">
-                                            <p class="h5">Recetas Veggie</p>
-                                            <a href="projects/recetario.php" class="project-btn">ver proyecto<i
+                                            <p class="h5"><?php echo $lang['pj_recetario'] ?></p>
+                                            <a href="projects/recetario.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                     class="fa-solid fa-arrow-right ps-2"></i></a>
                                         </div>
                                     </div>
                                     <div class="d-block d-lg-none mobile-project flex-column p-4">
-                                        <p class="h5">Recetas Veggie</p>
-                                        <a href="projects/recetario.php" class="project-btn">ver proyecto<i
+                                        <p class="h5"><?php echo $lang['pj_recetario'] ?></p>
+                                        <a href="projects/recetario.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                 class="fa-solid fa-arrow-right ps-2"></i></a>
                                     </div>
                                 </div>
@@ -350,14 +344,14 @@
                                     <img src="img/appio_portfolio.jpg" alt="" class="img-fluid project-img">
                                     <div class="d-none d-lg-block project-overlay">
                                         <div class="project-text flex-column">
-                                            <p class="h5">Appio</p>
-                                            <a href="projects/appio.php" class="project-btn">ver proyecto<i
+                                            <p class="h5"><?php echo $lang['pj_appio'] ?></p>
+                                            <a href="projects/appio.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                     class="fa-solid fa-arrow-right ps-2"></i></a>
                                         </div>
                                     </div>
                                     <div class="d-block d-lg-none mobile-project flex-column p-4">
-                                        <p class="h5">Appio</p>
-                                        <a href="projects/appio.php" class="project-btn">ver proyecto<i
+                                        <p class="h5"><?php echo $lang['pj_appio'] ?></p>
+                                        <a href="projects/appio.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                 class="fa-solid fa-arrow-right ps-2"></i></a>
                                     </div>
                                 </div>
@@ -367,14 +361,14 @@
                                     <img src="img/woodies_portfolio.jpg" alt="" class="img-fluid project-img">
                                     <div class="d-none d-lg-block project-overlay">
                                         <div class="project-text flex-column">
-                                            <p class="h5">Woodies</p>
-                                            <a href="projects/woodies.php" class="project-btn">ver proyecto<i
+                                            <p class="h5"><?php echo $lang['pj_woodies'] ?></p>
+                                            <a href="projects/woodies.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                     class="fa-solid fa-arrow-right ps-2"></i></a>
                                         </div>
                                     </div>
                                     <div class="d-block d-lg-none mobile-project flex-column p-4">
-                                        <p class="h5">Woodies</p>
-                                        <a href="projects/woodies.php" class="project-btn">ver proyecto<i
+                                        <p class="h5"><?php echo $lang['pj_woodies'] ?></p>
+                                        <a href="projects/woodies.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                 class="fa-solid fa-arrow-right ps-2"></i></a>
                                     </div>
                                 </div>
@@ -390,14 +384,14 @@
                                     <img src="img/rutinapp_portfolio.jpg" alt="" class="img-fluid project-img">
                                     <div class="d-none d-lg-block project-overlay">
                                         <div class="project-text flex-column">
-                                            <p class="h5">Rutinapp</p>
-                                            <a href="projects/rutinapp.php" class="project-btn">ver proyecto<i
+                                            <p class="h5"><?php echo $lang['pj_rutinapp'] ?></p>
+                                            <a href="projects/rutinapp.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                     class="fa-solid fa-arrow-right ps-2"></i></a>
                                         </div>
                                     </div>
                                     <div class="d-block d-lg-none mobile-project flex-column p-4">
-                                        <p class="h5">Rutinapp</p>
-                                        <a href="projects/rutinapp.php" class="project-btn">ver proyecto<i
+                                        <p class="h5"><?php echo $lang['pj_rutinapp'] ?></p>
+                                        <a href="projects/rutinapp.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                 class="fa-solid fa-arrow-right ps-2"></i></a>
                                     </div>
                                 </div>
@@ -407,14 +401,14 @@
                                     <img src="img/poli_portfolio.jpg" alt="" class="img-fluid project-img">
                                     <div class="d-none d-lg-block project-overlay">
                                         <div class="project-text flex-column">
-                                            <p class="h5">Poli</p>
-                                            <a href="projects/poli.php" class="project-btn">ver proyecto<i
+                                            <p class="h5"><?php echo $lang['pj_poli'] ?></p>
+                                            <a href="projects/poli.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                     class="fa-solid fa-arrow-right ps-2"></i></a>
                                         </div>
                                     </div>
                                     <div class="d-block d-lg-none mobile-project flex-column p-4">
-                                        <p class="h5">Poli</p>
-                                        <a href="projects/poli.php" class="project-btn">ver proyecto<i
+                                        <p class="h5"><?php echo $lang['pj_poli'] ?></p>
+                                        <a href="projects/poli.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                 class="fa-solid fa-arrow-right ps-2"></i></a>
                                     </div>
                                 </div>
@@ -424,14 +418,14 @@
                                     <img src="img/bitacora_portfolio.jpg" alt="" class="img-fluid project-img">
                                     <div class="d-none d-lg-block project-overlay">
                                         <div class="project-text flex-column">
-                                            <p class="h5">Bitácora</p>
-                                            <a href="projects/bitacora.php" class="project-btn">ver proyecto<i
+                                            <p class="h5"><?php echo $lang['pj_bitacora'] ?></p>
+                                            <a href="projects/bitacora.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                     class="fa-solid fa-arrow-right ps-2"></i></a>
                                         </div>
                                     </div>
                                     <div class="d-block d-lg-none mobile-project flex-column p-4">
-                                        <p class="h5">Bitácora</p>
-                                        <a href="projects/bitacora.php" class="project-btn">ver proyecto<i
+                                        <p class="h5"><?php echo $lang['pj_bitacora'] ?></p>
+                                        <a href="projects/bitacora.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                 class="fa-solid fa-arrow-right ps-2"></i></a>
                                     </div>
                                 </div>
@@ -441,14 +435,14 @@
                                     <img src="img/recetario_portfolio.jpg" alt="" class="img-fluid project-img">
                                     <div class="d-none d-lg-block project-overlay">
                                         <div class="project-text flex-column">
-                                            <p class="h5">Recetas Veggie</p>
-                                            <a href="projects/recetario.php" class="project-btn">ver proyecto<i
+                                            <p class="h5"><?php echo $lang['pj_recetario'] ?></p>
+                                            <a href="projects/recetario.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                     class="fa-solid fa-arrow-right ps-2"></i></a>
                                         </div>
                                     </div>
                                     <div class="d-block d-lg-none mobile-project flex-column p-4">
-                                        <p class="h5">Recetas Veggie</p>
-                                        <a href="projects/recetario.php" class="project-btn">ver proyecto<i
+                                        <p class="h5"><?php echo $lang['pj_recetario'] ?></p>
+                                        <a href="projects/recetario.php?lang=<?php echo $_SESSION['lang'] ?>" class="project-btn"><?php echo $lang['btn_proyecto'] ?><i
                                                 class="fa-solid fa-arrow-right ps-2"></i></a>
                                     </div>
                                 </div>
@@ -472,17 +466,13 @@
         <div class="col-12 col-lg-6 order-2 order-lg-1">
             <div class="row gx-0 h-100 px-5">
                 <div class="py-5 align-self-end">
-                    <div class="display-6 mb-2">Contáctame</div>
+                    <div class="display-6 mb-2"><?php echo $lang['contacto'] ?></div>
                     <div class="lead mt-3 mb-5">
-                        Me gustaría formar parte de tu equipo de trabajo porque quiero incorporarme en el mundo del
-                        desarrollo web
-                        para continuar creciendo a nivel profesional y personal, aprendiendo de cada experiencia y reto
-                        que se
-                        plantee siguiendo continuamente mi pasión.
+                        <?php echo $lang['contacto_texto'] ?>
                     </div>
-                    <div class="caption">email</div>
+                    <div class="caption"><?php echo $lang['contacto_email'] ?></div>
                     <div class="p mb-3"><a href="mailto:asierra0321@gmail.com">asierra0321@gmail.com</a></div>
-                    <div class="caption">Teléfono</div>
+                    <div class="caption"><?php echo $lang['contacto_tel'] ?></div>
                     <div class="p mb-3">+34 642 092 992</div>
                     <div class="social-media">
                         <a href="https://wa.me/+34642092992" target="_blank"><i
@@ -504,9 +494,9 @@
             Alejandra Sierra | 2022
         </div>
         <div class="col-12 col-lg-6 pe-lg-5 text-center text-lg-end order-1 order-lg-2">
-            <a href="policies/aviso_legal.php">Aviso Legal</a> |
-            <a href="policies/politica_privacidad.php">Política de Privacidad</a> |
-            <a href="policies/politica_cookies.php">Política de Cookies</a>
+            <a href="policies/aviso_legal.php"><?php echo $lang['foo_aviso'] ?></a> |
+            <a href="policies/politica_privacidad.php"><?php echo $lang['foo_privacidad'] ?></a> |
+            <a href="policies/politica_cookies.php"><?php echo $lang['foo_cookies'] ?></a>
         </div>
     </div>
 

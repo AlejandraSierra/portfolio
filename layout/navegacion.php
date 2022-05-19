@@ -1,3 +1,7 @@
+<?php
+    include "../config.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,8 +32,8 @@
     <div class="w-100 px-2 px-md-5" id="navbar">
         <nav class="navbar navbar-expand-lg navbar-light barra-navegacion">
             <div class="container-fluid">
-                <a class="navbar-brand order-lg-2" href="../index.html"><img src="../img/logo.svg"
-                    alt="Alejandra Sierra _Design"></a>
+                <a class="navbar-brand order-lg-2" href="../index.php"><img src="../img/logo.svg"
+                        alt="Alejandra Sierra _Design"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -38,18 +42,27 @@
                 <div class="collapse navbar-collapse order-lg-1" id="navbarTogglerDemo01">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 h6">
                         <li class="nav-item">
-                            <a class="nav-link" href="../index.html#home">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="../index.php#home"><?php echo $lang['nav_item1']?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../index.html#about">Sobre Mi</a>
+                            <a class="nav-link" href="../index.php#about"><?php echo $lang['nav_item2']?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../index.html#portafolio">Portafolio</a>
+                            <a class="nav-link" href="../index.php#portafolio"><?php echo $lang['nav_item3']?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../index.html#contact">Contacto</a>
+                            <a class="nav-link" href="../index.php#contact"><?php echo $lang['nav_item4']?></a>
                         </li>
                     </ul>
+                    <div class="dropdown">
+                        <button class="btn btn-lang dropdown-toggle ps-2" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-globe"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-lang" aria-labelledby="dropdownMenu2">
+                          <li><button class="dropdown-item" type="button"><a href="<?php echo $rutaRelativa.'?lang=es' ?>" class="nav-link">Español</a></button></li>
+                          <li><button class="dropdown-item" type="button"><a href="<?php echo $rutaRelativa.'?lang=en' ?>" class="nav-link">English</a></button></li>
+                        </ul>
+                      </div>
                 </div>
             </div>
         </nav>

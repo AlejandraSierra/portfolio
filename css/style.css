@@ -37,6 +37,29 @@ body {
   font-weight: 500;
 }
 
+.btn-lang {
+  font-size: 1.2rem;
+  color: #333333bb;
+  transition: .5s ease;
+}
+
+.btn-lang:hover > i {
+  color: var(--bs-primary);
+  transition: .5s ease;
+}
+
+.btn-lang:focus {
+  box-shadow: none;
+}
+
+.dropdown-lang {
+  background-color: rgba(242, 242, 242, 0.98);
+}
+
+.dropdown-lang .dropdown-item:hover {
+  background-color: rgba(0, 90, 114, 0.2);
+}
+
 /* Contenedores alto completo */
 
 .bg-container {
