@@ -124,7 +124,7 @@
                         <?php echo $lang['habilidades']?>
                     </div>
 
-                    <div class="row align-items-stretch pb-4 px-3 px-lg-0">
+                    <div class="row align-items-stretch pb-5 px-3 px-lg-0">
                         <div class="col-12 col-md-4 pe-3">
                             <div class="h5 text-md-end pb-2 pb-lg-0"><?php echo $lang['hab_cat1']?></div>
                         </div>
@@ -136,23 +136,39 @@
                         </div>
                     </div>
 
-                    <div class="row align-items-stretch pb-4 px-3 px-lg-0">
+                    <div class="row align-items-stretch pb-5 px-3 px-lg-0">
                         <div class="col-12 col-md-4 pe-3">
                             <div class="h5 text-md-end pb-2 pb-lg-0"><?php echo $lang['hab_cat2']?></div>
                         </div>
-                        <div class="col-12 col-md-8 ps-4 lead info-skill">
+                        <div class="col-6 col-md-4 ps-4 lead info-skill">
+                            <?php echo $lang['hab_cat2_info1']?>
+                        </div>
+                        <div class="col-6 col-md-4 ps-4 lead">
                             <?php echo $lang['hab_cat2_info2']?>
                         </div>
                     </div>
 
-                    <div class="row align-items-stretch pb-4 px-3 px-lg-0">
+                    <div class="row align-items-stretch pb-5 px-3 px-lg-0">
                         <div class="col-12 col-md-4 pe-3">
                             <div class="h5 text-md-end pb-2 pb-lg-0"><?php echo $lang['hab_cat3']?></div>
                         </div>
                         <div class="col-12 col-md-8 ps-4 lead info-skill">
-                            <?php echo $lang['hab_cat3_info3']?>
+                            <?php echo $lang['hab_cat3_info1']?>
                         </div>
                     </div>
+
+                    <div class="row align-items-stretch pb-5 px-3 px-lg-0">
+                        <div class="col-12 col-md-4 pe-3">
+                            <div class="h5 text-md-end pb-2 pb-lg-0"><?php echo $lang['hab_cat4']?></div>
+                        </div>
+                        <div class="col-6 col-md-4 ps-4 lead info-skill">
+                            <?php echo $lang['hab_cat4_info1']?>
+                        </div>
+                        <div class="col-6 col-md-4 ps-4 lead">
+                            <?php echo $lang['hab_cat4_info2']?>
+                        </div>
+                    </div>
+                    
 
                     <a 
                         <?php if($_SESSION['lang'] == 'es') {

@@ -23,6 +23,19 @@
     </div>
 </div>
 
+<!-- miga de pan -->
+<div class="container my-2 pt-3 pt-lg-4">
+    <div class="row border-bottom">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../index.php"><?php echo $lang['nav_item1']?></a></li>
+                <li class="breadcrumb-item"><a href="../index.php#portafolio"><?php echo $lang['nav_item3']?></a></li>
+                <li class="breadcrumb-item active" aria-current="page"><?php echo $nombrePagina?></li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
 <!-- Descripción General -->
 
 <div class="container my-5 py-3 py-lg-5">
