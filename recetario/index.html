@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--Head Section including links to all stylesheets, jquery and javascript files-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recetario</title>
+    <link rel="stylesheet" href="style/index.css" type="text/css">
+    <link rel="stylesheet" href="style/header.css" type="text/css">
+    <link rel="stylesheet" href="style/global.css" type="text/css">
+    <link rel="stylesheet" href="style/footer.css" type="text/css">
+    <link rel="stylesheet" href="style/recipes.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="jquery/slick.css">
+    <link rel="stylesheet" href="jquery/slick-theme.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquery/slick.min.js"></script>
+    <script src="jquery/slick.js"></script>
+    <script src="script/index-script.js"></script>
+    <script src="script/global-script.js"></script>
+</head>
+
+<body>
+    <!--Section 1: Header. Includes logo, navigation bar and searcher-->
+    <div id="grid-container">
+        <div id="header">
+            <img src="img/hamburger-menu.svg" id="hamburger-icon" alt="Icono para habilitar el menú lateral" width="30px" height="auto" onclick="openNav()">
+            <div id="hamburger-menu" class="overlay">
+                <a class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">Inicio</a>
+                    <a href="recetas.html">Recetas</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="nosotros.html">Nosotros</a>
+                </div>
+            </div>
+            <div id="logo">
+                <a href="index.html"><img src="img/logo.png" alt="Logo" width="141px" height="53px"></a>
+            </div>
+            <nav id="nav-bar">
+                <a href="index.html">Inicio</a>
+                <a href="recetas.html">Recetas</a>
+                <a href="blog.html">Blog</a>
+                <a href="nosotros.html">Nosotros</a>
+            </nav>
+            <div id="search">
+                <img src="img/buscar.svg" alt="buscador" onclick="search()">
+            </div>
+        </div>
+        <div id="search-bar">
+            <input type='text' id='search-input' placeholder='Escribe aquí lo que deseas buscar'>
+            <button type="button" id="search-btn" onclick="goToRecipesPage()"><img src="img/right-arrow.svg" alt="Buscar"></button>
+        </div>
+    </div>
+
+    <!--Section 2: Banner Hero-->
+    <div id="banner-hero">
+        <h1>Recetas<br>Veggie</h1><br>
+        <p id="subtitle-text">Porque comer delicioso y natural,<br>si es posible.</p>
+    </div>
+    <div id="down-arrow">
+        <a href="#page-contain"><img src="img/down-arrow.svg" alt="down arrow"></a>
+    </div>
+
+    <!--Page Contain for grid adjustments-->
+    <div id="page-contain">
+
+        <!--Section 3: Categories title and carousel-->
+        <h2>Categorías</h2>
+        <section class="responsive" id="carousel">
+            <div class="category" id="plato-fuerte" onclick="window.location='recetas.html'">
+                <img src="img/plato-fuerte.svg" alt="icono de platos fuertes" id="plato-fuerte-img">
+                <p class="overline">Platos Fuertes</p>
+            </div>
+
+            <div class="category" id="comida-rapida" onclick="window.location='recetas.html'">
+                <img src="img/fast-food.svg" alt="icono de comida rápida" id="comida-rapida-img">
+                <p class="overline">Comida Rápida</p>
+            </div>
+            <div class="category" id="pastas" onclick="window.location='recetas.html'">
+                <img src="img/pasta.svg" alt="icono de pastas" id="pastas-img">
+                <p class="overline">Pastas</p>
+            </div>
+            <div class="category" id="guarniciones" onclick="window.location='recetas.html'">
+                <img src="img/guarniciones.svg" alt="icono de guarniciones" id="guarniciones-img">
+                <p class="overline">Guarniciones</p>
+            </div>
+            <div class="category" id="ensaladas" onclick="window.location='recetas.html'">
+                <img src="img/ensalada.svg" alt="icono de ensaladas" id="ensaladas-img">
+                <p class="overline">Ensaladas</p>
+            </div>
+            <div class="category" id="desayunos" onclick="window.location='recetas.html'">
+                <img src="img/desayuno.svg" alt="icono de desayunos" id="desayunos-img">
+                <p class="overline">Desayunos</p>
+            </div>
+            <div class="category" id="sopas" onclick="window.location='recetas.html'">
+                <img src="img/sopa.svg" alt="icono de sopas" id="sopas-img">
+                <p class="overline">Sopas</p>
+            </div>
+            <div class="category" id="postres" onclick="window.location='recetas.html'">
+                <img src="img/postres.svg" alt="icono de postres" id="postres-img">
+                <p class="overline">Postres</p>
+            </div>
+            <div class="category" id="bebidas" onclick="window.location='recetas.html'">
+                <img src="img/bebidas.svg" alt="icono de bebidas" id="bebidas-img">
+                <p class="overline">Bebidas</p>
+            </div>
+            <div class="category" id="panes" onclick="window.location='recetas.html'">
+                <img src="img/panes.svg" alt="icono de panes" id="panes-img">
+                <p class="overline">Panes</p>
+            </div>
+            <div class="category" id="salsas" onclick="window.location='recetas.html'">
+                <img src="img/salsas.svg" alt="icono de salsas" id="salsas-img">
+                <p class="overline">Salsas</p>
+            </div>
+        </section>
+
+        <!--Section 4: Popular Recipes-->
+        <div id="popular-recipes">
+            <h3 id="popular-recipes-title">Recetas Populares</h3>
+        </div>
+        <!--Recipe Cards loaded from json file-->
+        <div id="recipe-cards"></div>
+
+        <!--Section 5: Blog Posts-->
+        <div id="blog">
+            <div id="blog-title">
+                <h3>Blog</h3>
+            </div>
+            <div id="main-post">
+                <a href="blog-post.html?id=entry-3" class="h5" id="post-name">Propiedades de la Miel como endulzante
+                    Natural</a>
+            </div>
+            <div id="blog-subtitle">
+                <h4>Posts Recientes</h4>
+            </div>
+            <div class="post" id="post-1">
+                <div>
+                    <a href="blog-post.html?id=entry-2" class="h5">Como ser vegetariano sin fallar en el intento</a>
+                </div>
+                <div class="post-arrow"><img src="img/blog-arrow.svg" alt="icono flecha apuntando a la derecha"></div>
+            </div>
+            <div class="post" id="post-2">
+                <div>
+                    <a href="blog-post.html?id=entry-5" class="h5">Porqué escoger los ingredientes frescos</a>
+                </div>
+                <div class="post-arrow"><img src="img/blog-arrow.svg" alt="icono flecha apuntando a la derecha"></div>
+            </div>
+            <div class="post" id="post-3">
+                <div>
+                    <a href="blog-post.html?id=entry-4" class="h5">Lo que debes saber de alimentos “Plant Based”</a>
+                </div>
+                <div class="post-arrow"><img src="img/blog-arrow.svg" alt="icono flecha apuntando a la derecha"></div>
+            </div>
+        </div>
+
+        <!--Section 6: Newsletter subscription-->
+        <div id="newsletter">
+            <div id="newsletter-title">
+                <h4>Suscribete a nuestro newsletter</h4>
+            </div>
+            <div>
+                <p class="body2" id="newsletter-description">Mantente informado de nuestras últimas novedades y
+                    <br>recibe las recetas más recientes
+                    en tu correo electrónico
+                </p>
+            </div>
+            <div id="newsletter-form">
+                <input type="email" placeholder="Correo Electrónico" id="newsletter-input">
+                <button type="submit" id="form-btn" onclick="newsletterSubscription()">enviar</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Section 7: Footer-->
+    <div id="footer">
+        <div id="footer-text">Todos los derechos reservados. Alejandra Sierra 2021</div>
+        <div id="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><img src="img/icono-fb.svg" alt="facebook icon"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/icono-instagram.svg" alt="instagram icon"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="img/icono-yt.svg" alt="youtube icon"></a>
+        </div>
+    </div>
+</body>
+
+</html>

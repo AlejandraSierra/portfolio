@@ -1,0 +1,179 @@
+#description{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 60px 10%;
+    gap: 50px;
+}
+#recipe-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#recipe-image img{
+    width: 100%;
+    height: auto;
+}
+#recipe-category, #recipe-subtitle{
+    color: #929292;
+    margin-bottom: 15px;
+}
+h4{
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.caption{
+    text-align: left;
+}
+.overline{
+    text-align: left;
+}
+#recipe-characteristics{
+    margin: 15px 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.75rem;
+    line-height: 15px;
+    text-align: left;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #0B190B;
+    display: flex;
+    gap: 10px;
+}
+.information{
+    width: 75px;
+    height: 70px;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.information img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 8px;
+}
+#ingredients{
+    margin-top: 40px;
+}
+#servings{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 15px 0;
+}
+#less, #plus{
+    width: 20px;
+    height: 20px;
+}
+#less{
+    background-image: url("../img/less.svg");
+}
+#plus{
+    background-image: url("../img/plus.svg");
+}
+#amount{
+    border: 1px #929292 solid; 
+    padding: 3px 20px;
+    border-radius: 39px;
+}
+#ingredient-container{
+    display: block;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.ingredient{
+    display: flex;
+    margin-bottom: 5px;    
+}
+.check{
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/check.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.checked{
+    background-image: url("../img/checked.svg");
+}
+.item{
+    margin-left: 15px;
+}
+button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#cookware{
+    background-color: #F3F3F3;
+    margin: 60px 0;
+    padding: 30px 10%;
+}
+#cookware span{
+    display: block;
+    margin-bottom: 20px;
+}
+#cooking-utensil{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#cooking-utensil div, #instruction div{
+    display: flex;
+    margin-top: 2px;
+}
+#utensil-name, #step{
+    margin-left: 20px;
+}
+#cooking-instructions{
+    margin: 80px 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.section-title{
+    margin-bottom: 20px;
+}
+#sides-suggestions{
+    margin: 0 10%;
+}
+/*Responsive adjustments for tablet version*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    #cooking-instructions{
+        grid-template-columns: 1fr;
+    }
+        #media{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+/*Responsive adjustments for mobile version*/
+@media screen and (max-width: 767px) {
+    #description{
+        grid-template-columns: 1fr;
+        margin: 60px 5%;
+    }
+    #cookware{
+        padding: 30px 5%;
+    }
+    #cooking-instructions{
+        margin: 80px 5%;
+        grid-template-columns: 1fr;
+    }
+    #media{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #media iframe{
+    width: 100%;
+    height: auto;
+    }
+    #sides-suggestions{
+        margin: 0 5%;
+    }
+}

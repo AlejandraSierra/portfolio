@@ -1,0 +1,31 @@
+/* settings for the footer section of all the pages of the website. Includes social media links*/
+#footer{
+    background-color: #408C3E;
+    width: 80%;
+    margin-top: 40px;
+    padding: 2% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#footer-text{
+    width: 60%;
+    font-family: Poppins;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0.25px;
+    color: #F7F7F6;
+}
+#social-icons{
+    width: 40%;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+/*Responsive adjustments for mobile version*/
+@media screen and (max-width: 767px) {
+    #social-icons{
+        width: 40%;
+        gap: 10px;
+    }
+}

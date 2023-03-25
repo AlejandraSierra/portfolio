@@ -1,0 +1,37 @@
+{
+    "entry-1": {
+        "title": "Comidas divertidas para los más peques",
+        "image": "img/entry-1.png",
+        "content": "En este espacio estará el contenido de la entrada 'Comidas divertidas para los más peques'."
+    },
+    "entry-2": {
+        "title": "Como ser vegetariano sin fallar en el intento",
+        "image": "img/entry-2.png",
+        "content": "En este espacio estará el contenido de la entrada 'Como ser vegetariano sin fallar en el intento'."
+    },
+    "entry-3": {
+        "title": "Propiedades de la Miel como endulzante Natural",
+        "image": "img/entry-3.png",
+        "content": "En este espacio estará el contenido de la entrada 'Propiedades de la Miel como endulzante Natural'."
+    },
+    "entry-4": {
+        "title": "Lo que debes saber de alimentos “Plant Based”",
+        "image": "img/entry-4.png",
+        "content": "En este espacio estará el contenido de la entrada 'Lo que debes saber de alimentos “Plant Based”'."
+    },
+    "entry-5": {
+        "title": "Porqué escoger los ingredientes frescos",
+        "image": "img/entry-5.png",
+        "content": "En este espacio estará el contenido de la entrada 'Porqué escoger los ingredientes frescos'."
+    },
+    "entry-6": {
+        "title": "Tips para cocinar con tus hijos",
+        "image": "img/entry-6.png",
+        "content": "En este espacio estará el contenido de la entrada 'Tips para cocinar con tus hijos'."
+    },    
+    "entry-7": {
+        "title": "Porque todas las vidas cuentan",
+        "image": "img/entry-7.png",
+        "content": "En este espacio estará el contenido de la entrada 'Porque todas las vidas cuentan'."
+    }
+}

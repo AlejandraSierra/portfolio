@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--Head Section including links to all stylesheets, jquery and javascript files-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recetario - Blog</title>
+    <link rel="stylesheet" href="style/header.css" type="text/css">
+    <link rel="stylesheet" href="style/global.css" type="text/css">
+    <link rel="stylesheet" href="style/footer.css" type="text/css">
+    <link rel="stylesheet" href="style/receta.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script/global-script.js"></script>
+</head>
+
+<body>
+    <!--Section 1: Header. Includes logo, navigation bar and searcher-->
+    <div id="grid-container">
+        <div id="header">
+            <img src="img/hamburger-menu.svg" id="hamburger-icon" alt="Icono para habilitar el menú lateral" width="30px" height="auto" onclick="openNav()">
+            <div id="hamburger-menu" class="overlay">
+                <a class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">Inicio</a>
+                    <a href="recetas.html">Recetas</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="nosotros.html">Nosotros</a>
+                </div>
+            </div>
+            <div id="logo">
+                <a href="index.html"><img src="img/logo.png" alt="Logo" width="141px" height="53px"></a>
+            </div>
+            <nav id="nav-bar">
+                <a href="index.html">Inicio</a>
+                <a href="recetas.html">Recetas</a>
+                <a href="blog.html">Blog</a>
+                <a href="nosotros.html">Nosotros</a>
+            </nav>
+            <div id="search">
+                <img src="img/buscar.svg" alt="buscador" onclick="search()">
+            </div>
+        </div>
+        <div id="search-bar">
+            <input type='text' id='search-input' placeholder='Escribe aquí lo que deseas buscar'>
+            <button type="button" id="search-btn" onclick="goToRecipesPage()"><img src="img/right-arrow.svg" alt="Buscar"></button>
+        </div>
+    </div>
+
+
+    <!--Section 2: Recipe Description-->
+    <section id="description">
+        <div id="information">
+            <p class="overline" id="recipe-category"></p>
+            <h4 id="recipe-name"></h4>
+            <p class="caption" id="recipe-subtitle"></p>
+            <p class="body1" id="recipe-description"></p>
+            <div id="recipe-characteristics">
+                <div class="information">
+                    <img src="img/tiempo.svg" alt="icono de tiempo">
+                    <p>Tiempo</p>
+                    <p id="time"></p>
+                </div>
+                <div class="information">
+                    <img src="img/dificultad.svg" alt="icono de dificultad">
+                    <p>Dificultad</p>
+                    <p id="difficulty"></p>
+                </div>
+                <div class="information" id="print-recipe">
+                    <img src="img/imprimir.svg" alt="icono de impresión">
+                    <p>Imprimir<br>Receta</p>
+                </div>
+            </div>
+            <div id="ingredients">
+                <h6>Ingredientes</h6>
+                <div id="servings">
+                    <div id="less"></div>
+                    <div id="amount" class="caption"></div>
+                    <div id="plus"></div>
+                </div>
+                <div id="ingredient-container">
+                </div>
+                <button id="basket">Imprimir Ingredientes<span><img src="img/cart.svg" alt="icono de carrito"></span></button>
+            </div>
+        </div>
+        <div id="recipe-image"></div>
+    </section>
+
+    <!--Section 3: Cookware-->
+    <section id="cookware">
+        <span>
+            <h6 class="section-title">Utensilios</h6>
+        </span>
+        <div id="cooking-utensil">
+        </div>
+    </section>
+
+
+    <!--Section 4: Cooking Instructions-->
+    <section id="cooking-instructions">
+        <div id="instructions">
+            <h6 class="section-title">Instrucciones de preparación</h6>
+            <div id="instruction">
+            </div>
+        </div>
+        <div id="media"></div>
+    </section>
+
+
+    <!--Section 5: Sides Suggestions-->
+    <section id="sides-suggestions">
+        <h6 class="section-title">Sugerencias de acompañamientos</h6>
+        <p class="body1" id="suggestions"></p>
+    </section>
+
+
+
+    <!--Section x: Footer-->
+    <div id="footer">
+        <div id="footer-text">Todos los derechos reservados. Alejandra Sierra 2021</div>
+        <div id="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><img src="img/icono-fb.svg" alt="facebook icon"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/icono-instagram.svg" alt="instagram icon"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="img/icono-yt.svg" alt="youtube icon"></a>
+        </div>
+    </div>
+    <script src="script/receta.js"></script>
+</body>
+
+</html>

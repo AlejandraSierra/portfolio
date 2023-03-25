@@ -1,0 +1,28 @@
+{
+
+    "recipe-1": {
+        "image-route": "img/recipe1.png",
+        "recipe-name": "Ensalada Árabe Fattoush",
+        "time": "10 min",
+        "difficulty": "Fácil"
+    },
+    "recipe-2": {
+        "image-route": "img/recipe2.png",
+        "recipe-name": "Espaguetis a la Pomodoro",
+        "time": "30 min",
+        "difficulty": "Fácil"
+    },
+    "recipe-3": {
+        "image-route": "img/recipe3.png",
+        "recipe-name": "Tajine Marroquí de Garbanzos",
+        "time": "120 min",
+        "difficulty": "Media"
+    },
+    "recipe-4": {
+        "image-route": "img/recipe4.png",
+        "recipe-name": "Pizza Vegetal de Berenjenas",
+        "time": "20 min",
+        "difficulty": "Fácil"
+    }
+
+}

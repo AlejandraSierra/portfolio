@@ -16,7 +16,7 @@
                     <div class="py-2 text-center"><span class="px-2 highlight lead"><?php echo $lang['recetario_descripcion_corta']?></span></div>
                 </div>
                 <div class="col-12 px-5 pb-4 text-end">
-                    <a href="#" class="project-btn d-none"><?php echo $lang['recetario_boton']?><i class="fa-solid fa-arrow-right ps-2"></i></a>
+                    <a href="http://asierra-design.com/" target="_blank" class="project-btn"><?php echo $lang['recetario_boton']?><i class="fa-solid fa-arrow-right ps-2"></i></a>
                 </div>
             </div>
         </div>

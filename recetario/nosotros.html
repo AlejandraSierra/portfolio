@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--Head Section including links to all stylesheets, jquery and javascript files-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recetario - Nosotros</title>
+    <link rel="stylesheet" href="style/nosotros.css" type="text/css">
+    <link rel="stylesheet" href="style/header.css" type="text/css">
+    <link rel="stylesheet" href="style/global.css" type="text/css">
+    <link rel="stylesheet" href="style/footer.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script/global-script.js"></script>
+</head>
+
+<body>
+    <!--Section 1: Header. Includes logo, navigation bar and searcher-->
+    <div id="grid-container">
+        <div id="header">
+            <img src="img/hamburger-menu.svg" id="hamburger-icon" alt="Icono para habilitar el menú lateral" width="30px" height="auto" onclick="openNav()">
+            <div id="hamburger-menu" class="overlay">
+                <a class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">Inicio</a>
+                    <a href="recetas.html">Recetas</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="nosotros.html">Nosotros</a>
+                </div>
+            </div>
+            <div id="logo">
+                <a href="index.html"><img src="img/logo.png" alt="Logo" width="141px" height="53px"></a>
+            </div>
+            <nav id="nav-bar">
+                <a href="index.html">Inicio</a>
+                <a href="recetas.html">Recetas</a>
+                <a href="blog.html">Blog</a>
+                <a href="nosotros.html">Nosotros</a>
+            </nav>
+            <div id="search">
+                <img src="img/buscar.svg" alt="buscador" onclick="search()">
+            </div>
+        </div>
+        <div id="search-bar">
+            <input type='text' id='search-input' placeholder='Escribe aquí lo que deseas buscar'>
+            <button type="button" id="search-btn" onclick="goToRecipesPage()"><img src="img/right-arrow.svg" alt="Buscar"></button>
+        </div>
+    </div>
+
+    <!--Section 2: Banner Hero-->
+    <div id="banner-hero">
+        <h2>Conoce todo sobre nosotros</h2><br>
+    </div>
+    <div id="down-arrow">
+        <a href="#page-contain"><img src="img/down-arrow.svg" alt="down arrow"></a>
+    </div>
+
+    <!--Section 3: about-->
+    <div id="about">
+        <h3 id="about-title">¿Quienes somos?</h3>
+        <div id="about-text">
+            <p class="body1">Somos un grupo de personas jovenes conscientes interesadas en la protección de la vida y
+                los derechos de los animales, tenemos la firme convicción de que los animales son seres fantásticos que
+                no deben ser tratados como objetos y por tanto, no podemos disponer de sus vidas para nuestro consumo,
+                aún más cuando tenemos multiples opciones de alimentación.<br><br>Así pues, hemos decidido tener un
+                estilo
+                de vida en el cual la vida de los animales no sea sacrificada para nuestro consumo y hemos cambiado
+                nuestro tipo de alimentación para alimentarnos a base de comida vegetal.<br><br>En el proceso, hemos
+                encontrado múltiples dificultades, como la necesidad de aprender a cocinar nuestros propios alimentos y
+                la límitada variedad de recetas existentes, pero, ¿Quién dijo que tiene que ser así?. Uniendo nuestras
+                capacidades y conocimientos, hemos decidido crear Receta Veggie, para quienes como nosotros, se
+                encuentran en la búsqueda de alternativas saludables, deliciosas y libres de sufrimiento animal.</p>
+        </div>
+        <div id="about-img"></div>
+    </div>
+
+    <!--Section 4: Allies-->
+    <div id="allies">
+        <h3 id="allies-title">Nuestros Aliados</h3>
+        <div id="allies-logos">
+            <img src="img/ally1.png" alt="">
+            <img src="img/ally2.png" alt="">
+            <img src="img/ally3.png" alt="">
+            <img src="img/ally4.png" alt="">
+        </div>
+    </div>
+
+    <!--Section 5: motivation-->
+    <div id="motivation">
+        <h3 id="motivation-title">¿Qué nos motiva?</h3>
+        <div id="motivation-img"></div>
+        <div id="motivation-text">
+            <p class="body1">Los alicientes que nos han motivado a realizar este proyecto, son múltiples y variados.
+                Inicialmente, la convicción de que todas las vidas valen, incluyendo por supuesto las vidas animales. La
+                posibilidad de generar conciencia y demostrar que cambiar nuestra forma de alimentarnos si es
+                posible, la oportunidad de ofrecer alternativas deliciosas y/o saludables a quienes desean cambiar (o ya
+                han cambiado) sus hábitos alimenticios y tomar acción desde nuestras posibilidades para generar cambios
+                que impacten
+                de manera positiva en el planeta como la reducción del desperdicio de agua generado por la ganadería que
+                impacta directamente en el calentamiento global, la deforestación, la erosión de los suelos, entre
+                otros, y la posibilidad de impactar positivamente en la salud de las personas.<br><br>Estamos
+                convencidos de que aún estamos a tiempo para revertir el daño que como especie hemos causado en este
+                planeta que nos aloja y
+                sabemos que cada pequeña acción cuenta. </p>
+        </div>
+    </div>
+
+    <!--Section x: Footer-->
+    <div id="footer">
+        <div id="footer-text">Todos los derechos reservados. Alejandra Sierra 2021</div>
+        <div id="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><img src="img/icono-fb.svg" alt="facebook icon"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/icono-instagram.svg" alt="instagram icon"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="img/icono-yt.svg" alt="youtube icon"></a>
+        </div>
+    </div>
+</body>
+
+</html>

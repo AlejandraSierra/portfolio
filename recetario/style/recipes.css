@@ -1,0 +1,141 @@
+/*In this file are set the css configuration for recipe cards corresponding to home page and recipe page*/
+#recipe-cards{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card{
+    margin: 60px 0;
+    background: rgb(247,247,246);
+    background: linear-gradient(0deg, rgba(247,247,246,1) 80%, rgba(247,247,246,0) 100%);
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 50px 50px 40px;
+    justify-content: center;
+    width: 280px;
+    padding-bottom: 20px;
+}
+.card:hover{
+    -webkit-box-shadow: 0px 10px 13px -7px #b9b9b9, -2px 16px 41px -1px rgba(226, 226, 226, 0.69); 
+    box-shadow: 0px 10px 13px -7px #b9b9b9, -2px 16px 41px -1px rgba(226, 226, 226, 0.69);
+}
+#card-img{
+    margin: -100px auto 20px auto;
+    grid-row: 1/2;
+    grid-column: 1/4;
+}
+#recipe-name{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #0B190B;
+    grid-row: 2/3;
+    grid-column: 1/4;
+    padding: 0 10%;
+    text-decoration: none;
+    /*display: block;*/
+}
+#line{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 1px solid #BDBDBD;
+    width: 80%;
+    height: 20px;
+    grid-row: 3/4;
+    grid-column: 1/4;
+}
+#like-btn{
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.like{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/like.svg");
+}
+.liked{
+    background-image: url("../img/liked.svg");
+}
+#time{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin-left: -20px;
+}
+#difficulty{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    margin-left: -40px;
+}
+/*Responsive adjustments for displaying cards on web screen*/
+@media screen and (min-width: 1454px){
+    #recipe-cards{
+        gap: 10px;
+    }
+}
+@media screen and (min-width: 1305px) and (max-width: 1453px){
+    #recipe-cards{
+        gap: 10px;
+    }
+        .card{
+        margin: 50px 0;
+        width: 250px;
+    }
+}
+@media screen and (min-width: 1155px) and (max-width: 1304px){
+    #recipe-cards{
+        gap: 10px;
+    }
+        .card{
+        margin: 50px 0;
+        width: 220px;
+    }
+}
+@media screen and (min-width: 1006px) and (max-width: 1154px){
+    #recipe-cards{
+        gap: 20px;
+    }
+        .card{
+        margin: 50px 0;
+        width: 250px;
+    }
+}
+@media screen and (min-width: 878px) and (max-width: 1005px){
+    #recipe-cards{
+        gap: 10px;
+    }
+    .card{
+        margin: 50px 0;
+        width: 220px;
+    }
+}
+/*Responsive adjustments for tablet version*/
+@media screen and (min-width: 739px) and (max-width: 877px) {
+    #recipe-cards{
+        gap: 20px;
+    }
+        .card{
+        margin: 50px 0;
+        width: 280px;
+    }
+}
+/*Responsive adjustments for mobile version*/
+@media screen and (max-width: 740px) {
+        #recipe-cards{
+        justify-content:center;
+    }
+        .card{
+        margin: 60px 0;
+        width: 340px;
+    }
+}

@@ -1,0 +1,880 @@
+{
+    "recipe-1": {
+        "miniature-img": "img/recipe1.png",
+        "category": "Ensaladas",
+        "name": "Ensalada Árabe Fattoush",
+        "subtitle": "Plato típico Libanes",
+        "description": "El Fattoush es una ensalada típica de la cocina siria y libanesa, es ideal para una comida ligera, rápida y fresca, especialmente en los meses de verano.",
+        "time": "10 min",
+        "difficulty": "Fácil",
+        "ingredient": [
+            {
+                "quantity": 1,
+                "item": "Tomate(s) de ensalada"
+            },
+            {
+                "quantity": 1,
+                "item": "Lechuga(s) romana."
+            },
+            {
+                "quantity": 1,
+                "item": "Pepino(s) largo tipo Holandés."
+            },            {
+                "quantity": 1,
+                "item": "Cebolleta(s)."
+            },
+            {
+                "quantity": 1,
+                "item": "Pimiento Morrón Rojo."
+            },
+            {
+                "quantity": 1,
+                "item": "Pan de pita."
+            },
+            {
+                "quantity": 4,
+                "item": "Rabanitos."
+            },
+            {
+                "quantity": 2,
+                "item": "Hojas de perejíl frescas."
+            },
+            {
+                "quantity": 2,
+                "item": "Cucharadas de hojas de menta fresca."
+            },
+            {
+                "quantity": 2,
+                "item": "Cucharadas de hojas de cilantro fresco."
+            },
+            {
+                "quantity": 1,
+                "item": "Limón."
+            },
+            {
+                "quantity": 2,
+                "item": "Cucharadas de Sumac."
+            },
+            {
+                "quantity": 2,
+                "item": "Cucharadas de aceite de oliva."
+            },
+            {
+                "quantity": 1,
+                "item": "cucharada(s) de sal."
+            }
+        ],
+        "image": "img/recipe-img1.png",
+        "amount": 1,
+        "cookware": [
+            "Paño",
+            "Cuchillo",
+            "Tabla de picar",
+            "Varillas",
+            "Bowl o Ensaladera"
+        ],
+        "instructions": [
+            "Lavar los vegetales y secarlos con un paño.",
+            "Cortar los tomates en trozos de 2 ó 3 cm.",
+            "Cortar el pepino, los rabanitos y el pimiento rojo en trozos de 2cm de largo",
+            "Cortar la cebolleta en tiras.",
+            "Separar las hojas de lechuga del tallo y lavarlas con abundante agua.",
+            "Secar las hojas con un paño.",
+            "Cortar la lechuga en tiras no muy finas.",
+            "Cortar las hojas de menta, perejil y cilantro finamente.",
+            "Cortar el pan de pita en dados y torstarlo en horno durante 5 minutos.",
+            "Colocar en un bowl sumac, aceite de oliva, zumo de limón, sal y batir.",
+            "Mezclar los vegetales con la vinagreta y remover uniformemente.",
+            "Esparcir los dados de pan pita por encima y espolvorear sumac."
+        ],
+        "media": "https://www.youtube.com/embed/2IsBHK2QNr0",
+        "sides": "Ideal acompañar con vino tinto joven, puedes servirla como entrada, plato principal o como acompañamiento para cualquier tipo de guarnición. Puede acompañarse también con una ración de Falafel."
+    },
+    "recipe-2": {
+        "miniature-img": "img/recipe2.png",
+        "category": "Pastas",
+        "name": "Espaguetis a la Pomodoro",
+        "subtitle": "Receta Italiana",
+        "description": "La pasta pomodoro es un clásico de la cocina italiana, es una comida fresca, ligera y de rápida preparación.",
+        "time": "30 min",
+        "difficulty": "Fácil",
+        "ingredient": [
+            {
+                "quantity": 300,
+                "item": "gr de espagueti."
+            },
+            {
+                "quantity": 4,
+                "item": "Tomates partidos en medios."
+            },
+            {
+                "quantity": 1,
+                "item": "Cebolla(s) cortada en trozos."
+            },
+            {
+                "quantity": 1,
+                "item": "Diente(s) de ajo picado(s)."
+            },
+            {
+                "quantity": 1,
+                "item": "Cucharada(s) de tomillo fresco picado."
+            },
+            {
+                "quantity": 1,
+                "item": "Taza(s) de queso parmesano."
+            },            {
+                "quantity": 3,
+                "item": "Cucharadas de aceite de oliva."
+            },
+            {
+                "quantity": 1,
+                "item": "Taza(s) de caldo de verduras."
+            },
+            {
+                "quantity": 1,
+                "item": "Taza(s) de hojas de albahaca fresca."
+            },
+            {
+                "quantity": 1,
+                "item": "Cucharada(s) de paprika."
+            }
+        ],
+        "image": "img/recipe-img2.png",
+        "amount": 1,
+        "cookware": [
+            "Charola de Hornear",
+            "Brocha de cocina",
+            "Horno",
+            "Sartén",
+            "Tenedor"
+        ],
+        "instructions": [
+            "Coloca los tomates en una charola.",
+            "Barniza los tomates con aceite de oliva y salpimienta.",
+            "Rostiza los tomates a 200ºC por 20 minutos",
+            "Retira la piel de los toamtes con cuidado.",
+            "Sofríe el ajo, el tomillo y la cebolla en aceite de olvia.",
+            "Agrega los tomates rostizados.",
+            "Presiona todo con la ayuda de un tenedor.",
+            "Agrega una taza de caldo de verdura y salpimienta.",
+            "Cocina la pasta hasta que esté suave y mezcla con la salsa",
+            "Coloca albahaca, paprika y queso parmesano.",
+            "Sirve caliente."
+        ],
+        "media": "https://www.youtube.com/embed/m7P_1Bvq-R0",
+        "sides": "Puedes acompañarlo con unos entrantes de antipasti de vegetales o algunas verduras a la parrilla con aceite de oliva, incluso puedes servirla con una sopa vegetal, especialmente en los meses de más frio. Al ser una pasta roja, como maridaje se sugiere un vino tinto preferiblemente de uva Sauvignon."
+    },
+    "recipe-3": {
+        "miniature-img": "img/recipe3.png",
+        "category": "Guarniciones",
+        "name": "Tajine Marroquí de Garbanzos",
+        "subtitle": "Plato típico Árabe",
+        "description": "La tajine es una cazuela de barro natural, utilizada por los pueblos nómadas africanos desde hace milenios. En su interior, los alimentos se cuecen a fuego lento en su propio jugo, conservando las sustancias nutritivas y el sabor propio.<br>Hoy te mostramos la receta de una tajine de garbanzos y verduras, aderezada con una mezcla de especias árabes, que nos evoca a los aromas del desierto.",
+        "time": "120 min",
+        "difficulty": "Media",
+        "ingredient": [
+            {
+                "quantity": 75,
+                "item": "gr de garbanzos."
+            },
+            {
+                "quantity": 2,
+                "item": "Dientes de ajo."
+            },
+            {
+                "quantity": 1,
+                "item": "Cebolla(s)."
+            },
+            {
+                "quantity": 1,
+                "item": "Zanahoria(s)."
+            },
+            {
+                "quantity": 1,
+                "item": "Pimiento(s) rojo."
+            },
+            {
+                "quantity": 1,
+                "item": "Pimiento(s) verde."
+            },            {
+                "quantity": 2,
+                "item": "Patatas pequeñas."
+            },
+            {
+                "quantity": 1,
+                "item": "Nabo(s)."
+            },
+            {
+                "quantity": 1,
+                "item": "Calabacín(es) pequeño cortado en trozos grandes."
+            },
+            {
+                "quantity": 1,
+                "item": "Hoja(s) de laurel."
+            },
+            {
+                "quantity": 1,
+                "item": "Trozo(s) de alga kombu."
+            },
+            {
+                "quantity": 1,
+                "item": "Cucharada(s) de pimentón dulce."
+            },
+            {
+                "quantity": 1,
+                "item": "cucharada(s) de ras al hanut."
+            },
+            {
+                "quantity": 1,
+                "item": "Chorro(s) de aceite de oliva."
+            },
+            {
+                "quantity": 1,
+                "item": "Cucharada(s) de sal."
+            }
+        ],
+        "image": "img/recipe-img3.png",
+        "amount": 1,
+        "cookware": [
+            "Báscula de cocina",
+            "Cuchillo",
+            "Tabla de madera",
+            "Bowl Pequeño",
+            "Medidor de cucharadas",
+            "Tajine (Opcional)",
+            "Cuchara de cocinar",
+            "Escurridor"
+        ],
+        "instructions": [
+            "Calienta la tajine con un chorro de aceite.",
+            "Sofríe los ajos en láminas con las hojas de laurel.",
+            "Sofríe la cebolla, en cuadritos pequeños durante 5 min.",
+            "Agrega el pimentón y sigue removiendo 2 minutos más.",
+            "Agregar los pimientos cortados en cuadritos pequeños.",
+            "Agrega la zanahoria y el nabo cortados en gajos.",
+            "Añade las patatas enteras, y pon la sal.",
+            "Remover todo para que se mezcle bien.",
+            "Añadir los garbanzos escurridos y cubrir con agua.",
+            "Espolvorea el Ras al hanut y remueve.",
+            "Tapa y llena de agua la olla o tajine.",
+            "Cuando hierva, baja a fuego medio/bajo y cocina 1 hora.",
+            "Colocar las patatas y el calabacín sobre los garbanzos.",
+            "Deja cocinar 30 minutos más."
+        ],
+        "media": "https://www.youtube.com/embed/b4V8yoM29iQ",
+        "sides": "Puedes acompañarlo con una base de cous cous y decora con menta, perejíl y heneldo."
+    },
+    "recipe-4": {
+        "miniature-img": "img/recipe4.png",
+        "category": "Comida Rápida",
+        "name": "Pizza Vegetal de Berenjenas",
+        "subtitle": "Plato típico Italiano",
+        "description": "Es uno de los platos italianos más conocidos a nivel global. Puedes prepararla casí con cualquier ingrediente que tengas a mano y disfrutarla en cualquier momento del día.",
+        "time": "20 min",
+        "difficulty": "Fácil",
+        "ingredient": [
+            {
+                "quantity": 1,
+                "item": "Base para pizza o masa lista."
+            },
+            {
+                "quantity": 100,
+                "item": "gr de queso mozzarella rallado."
+            },
+            {
+                "quantity": 1,
+                "item": "Pimiento(s)."
+            },
+            {
+                "quantity": 50,
+                "item": "ml de pasta de tomate."
+            },
+            {
+                "quantity": 1,
+                "item": "Cebolla(s)."
+            },
+            {
+                "quantity": 2,
+                "item": "Champiñones frescos."
+            },            
+            {
+                "quantity": 1,
+                "item": "Berenjena(s) pequeña(s)."
+            },
+            {
+                "quantity": 1,
+                "item": "Cucharada pequeña de Oregano."
+            }
+        ],
+        "image": "img/recipe-img4.png",
+        "amount": 1,
+        "cookware": [
+            "Cuchillo",
+            "Tabla de madera",
+            "Paño de algodón",
+            "Medidor de cucharadas",
+            "Bandeja para horno",
+            "Papel de horno",
+            "Horno",
+            "Colador"
+        ],
+        "instructions": [
+            "Cortar la berenjena en rodajas delgadas.",
+            "Impregnar con sal las berenjenas y escurrirlas 20 minutos.",
+            "Cortar el pimiento y la cebolla en tiras.",
+            "Cortar los chamipiñones en láminas.",
+            "Precalentar el horno a 220ºC.",
+            "Colocar papel de horno a la bandeja.",
+            "Colocar la masa encima del papel.",
+            "Agregar la pasta de tomate.",
+            "Distribuir los ingredientes cortados.",
+            "Colocar el queso rallado por toda la superficie.",
+            "Espolvorear oregano.",
+            "Introducir la bandeja al horno",
+            "Hornear durante 7-8 minutos a 220ºC.",
+            "Servir caliente y porcionar en tríangulos."
+        ],
+        "media": "https://www.youtube.com/embed/6jNMinJKE40",
+        "sides": "Puedes acompañar esta deliciosa pizza con alguna bebida refrescante o un vino joven de tu cepa preferida."
+    },
+    "recipe-5": {
+        "miniature-img": "img/recipe5.png",
+        "category": "Sopas",
+        "name": "Crema Casera de Calabaza",
+        "subtitle": "Receta de la abuela",
+        "description": "La crema de calabaza es la reina de todas las cremas en nuestra casa, la favorita de mayores y de pequeños, nos gusta fría en verano y caliente en invierno, de primer plato a la hora de comer y como plato único para cenar.",
+        "time": "30 min",
+        "difficulty": "Fácil",
+        "ingredient": [
+            {
+                "quantity": 350,
+                "item": "gr de calabaza."
+            },
+            {
+                "quantity": 1,
+                "item": "patata(s)."
+            },
+            {
+                "quantity": 1,
+                "item": "Cebella(s)."
+            },
+            {
+                "quantity": 2,
+                "item": "Quesitos desnatados."
+            },
+            {
+                "quantity": 1,
+                "item": "Cucharada(s) de sal."
+            },
+            {
+                "quantity": 1,
+                "item": "Cucharada(s) de pimienta negra."
+            },
+            {
+                "quantity": 1,
+                "item": "Chorro(s) de aceite de oliva."
+            }
+        ],
+        "image": "img/recipe-img5.png",
+        "amount": 1,
+        "cookware": [
+            "Cuchillo",
+            "Tabla de madera",
+            "Procesador de alimentos",
+            "Olla",
+            "Pelador de vegetales"
+        ],
+        "instructions": [
+            "Pelar la calabaza y retirar las semillas.",
+            "Cortar la calabaza en cuadros medianos.",
+            "Pelar y cortar la cebolla en cuadritos.",
+            "Lavar y cortar la patata en cuadritos.",
+            "Colocar en una olla el aceite y pochar la cebolla.",
+            "Añadir la calabaza y la patata.",
+            "Dejar rehogar durante 3 minutos.",
+            "Añadir agua y dejar cocinar 20 minutos.",
+            "Incorporar los quesitos.",
+            "Turturar con el procesador o batidora.",
+            "Servir caliente o fria de acuerdo a la temporada."
+        ],
+        "media": "https://www.youtube.com/embed/c9cADx4wCWs",
+        "sides": "Puedes decorar con un poco de queso parmesano o nata y algunas semillas de calabaza."
+    },
+    "recipe-6": {
+        "miniature-img": "img/recipe6.png",
+        "category": "Desayunos",
+        "name": "Bowl de Cereales con Fruta",
+        "subtitle": "Receta saludable",
+        "description": "Esta receta te proveerá toda la energía que necesitas para iniciar tus días de la forma más deliciosa. Ideal para un desayuno rápido o para la temporada de calor.",
+        "time": "15 min",
+        "difficulty": "Fácil",
+        "ingredient": [
+            {
+                "quantity": 1,
+                "item": "Kiwi."
+            },
+            {
+                "quantity": 50,
+                "item": "gr de moras silvestres."
+            },
+            {
+                "quantity": 1,
+                "item": "Plátano(s)."
+            },
+            {
+                "quantity": 20,
+                "item": "gr de semillas de chía."
+            },
+            {
+                "quantity": 4,
+                "item": "Fresas."
+            },
+            {
+                "quantity": 150,
+                "item": "gr de yogurt griego."
+            },
+            {
+                "quantity": 20,
+                "item": "ml de leche vegetal."
+            },
+            {
+                "quantity": 50,
+                "item": "gr de granola natural."
+            }
+        ],
+        "image": "img/recipe-img6.png",
+        "amount": 1,
+        "cookware": [
+            "Cuchillo",
+            "Tabla de madera",
+            "Cuchara",
+            "Bowl"
+        ],
+        "instructions": [
+            "Sumergir las semillas de chía en leche vegetal.",
+            "Lavar y cortar las fresas en medios.",
+            "Pelar el kiwi y cortar en rodajas.",
+            "Lavar las moras silvestres.",
+            "Pelar y cortar el plátano en rodajas.",
+            "Colocar en un bowl el yogurt griego.",
+            "Añadir la granola natural y mezclar con el yogurt",
+            "Añadir las frutas previamente cortadas.",
+            "Colocar las semillas de chía hidratadas."
+        ],
+        "media": "https://www.youtube.com/embed/oWaXXhxlJ6U",
+        "sides": "Puedes acompañar con un queso suave y un jugo natural o smoothie. Puedes utilizar cualquier otra fruta y decorar con algunas nueces trituradas."
+    },
+    "recipe-7": {
+        "miniature-img": "img/recipe7.png",
+        "category": "Platos Fuertes",
+        "name": "Koftas Indias de Lentejas",
+        "subtitle": "Receta típica de la India",
+        "description": "las koftas destacan por su textura crujiente y su sabor exótico. Se pueden servir como plato principal. Pueden ser una buena manera para que los niños de la casa se diviertan comiendo legumbres.",
+        "time": "90 min",
+        "difficulty": "Media",
+        "ingredient": [
+            {
+                "quantity": 100,
+                "item": "gr de lentejas rojas."
+            },
+            {
+                "quantity": 1,
+                "item": "Cebolla(s)."
+            },
+            {
+                "quantity": 1,
+                "item": "Zanahoria(s)."
+            },
+            {
+                "quantity": 1,
+                "item": "Diente(s) de ajo."
+            },
+            {
+                "quantity": 1,
+                "item": "Rama(s) de perejil."
+            },
+            {
+                "quantity": 1,
+                "item": "Cucharada(s) de sal."
+            },
+            {
+                "quantity": 30,
+                "item": "ml de aceite de oliva."
+            }
+        ],
+        "image": "img/recipe-img7.png",
+        "amount": 1,
+        "cookware": [
+            "Cuchillo",
+            "Tabla de madera",
+            "Procesador de alimentos",
+            "Escurridor",
+            "Sartén"
+        ],
+        "instructions": [
+            "Limpiar las lentejas y dejar en reomojo por 1h.",
+            "Escurrir las lentejas.",
+            "Triturar las lentejas y los vegetales.",
+            "Añadir sal a la mezcla y armar bolitas.",
+            "Dejar en el congelador por 20 minutos.",
+            "Calentar el aceite de oliva en un sartén.",
+            "Freir las koftas por cada lador hasta que se doren.",
+            "Colocar en papel absorvente.",
+            "Servir calientes."
+        ],
+        "media": "https://www.youtube.com/embed/CFpAtHFhaFI",
+        "sides": "Puedes acompañar con salsa picante, vegetales y/o arroz."
+    },
+    "recipe-8": {
+        "miniature-img": "img/recipe8.png",
+        "category": "Pastas",
+        "name": "Tagliatelle a la Boloñesa Vegetariana",
+        "subtitle": "Receta Italiana",
+        "description": "Esta versión vegetariana de la salsa boloñesa es ideal para utilizar con cualquier tipo de pasta, especialmente con tagliatelles.",
+        "time": "45 min",
+        "difficulty": "Media",
+        "ingredient": [
+            {
+                "quantity": 150,
+                "item": "gr de pasta tagliatelle."
+            },
+            {
+                "quantity": 1,
+                "item": "Diente(s) de ajo finamente picado."
+            },
+            {
+                "quantity": 1,
+                "item": "Cebolla(s) finamente picada."
+            },
+            {
+                "quantity": 1,
+                "item": "Cucharada(s) de aceite de oliva."
+            },
+            {
+                "quantity": 1,
+                "item": "Taza(s) de lentejas cocidas y escurridas."
+            },
+            {
+                "quantity": 1,
+                "item": "Taza(s) de puré de tomate."
+            },
+            {
+                "quantity": 3,
+                "item": "Hojas de albahaca fresca."
+            },
+            {
+                "quantity": 1,
+                "item": "Cucharada(s) de azúcar mascarbado."
+            },
+            {
+                "quantity": 1,
+                "item": "Cucharada(s) de sal."
+            }
+        ],
+        "image": "img/recipe-img8.png",
+        "amount": 1,
+        "cookware": [
+            "Olla",
+            "Medidor de cucharadas",
+            "Cuchara de madera",
+            "Cuchillo",
+            "Escurridor"
+        ],
+        "instructions": [
+            "Prepara la pasta según indicaciones del paquete.",
+            "En una olla a fuego medio coloca el aciete.",
+            "Agrega el ajo y la cebolla hasta pocharla.",
+            "Agrega las lentejas y cocina por 5 minutos.",
+            "Añade el puré de tomates y revuleve bien.",
+            "Cocina durante 5 minutos aprox. con la olla tapada.",
+            "Agrega la albahaca y perejil fresco y revuelve.",
+            "Tapa la olla y deja cocinar durante 15 minutos.",
+            "Agrega azúcar y revuelve.",
+            "Sirve la pasta y agrega la salsa encima."
+        ],
+        "media": "https://www.youtube.com/embed/O9J1obCbywQ",
+        "sides": "Puedes decorar con unas hojas de albahaca fresca. Acompaña con una ensalada fresca y/o un vino tinto de la cepa de tu preferencia."
+    },
+    "recipe-9": {
+        "miniature-img": "img/recipe9.png",
+        "category": "Postres",
+        "name": "Cupcakes de Vainilla con Crema",
+        "subtitle": "Postre clásico saludable",
+        "description": "La receta de cupcakes de vainilla son la clase de dulces esponjosos que no deberían faltar en un compartir familiar. Además, es un postre clásico que no contiene tantos ingredientes, por lo tanto, suelen ser un poco más sanos que el resto.",
+        "time": "20 min",
+        "difficulty": "Media",
+        "ingredient": [
+            {
+                "quantity": 40,
+                "item": "gr de harina de almendras."
+            },
+            {
+                "quantity": 10,
+                "item": "gr de harina de tapioca."
+            },
+            {
+                "quantity": 10,
+                "item": "gr de azúcar de coco o edulcorante."
+            },
+            {
+                "quantity": 1,
+                "item": "Cucharada(s) de levadura en polvo."
+            },
+            {
+                "quantity": 1,
+                "item": "Cucharada(s) de bicarbonato de sodio."
+            },
+            {
+                "quantity": 1,
+                "item": "Cucharada(s) de sal."
+            },
+            {
+                "quantity": 1,
+                "item": "huevo(s)."
+            },
+            {
+                "quantity": 40,
+                "item": "ml de leche de almendras."
+            },
+            {
+                "quantity": 1,
+                "item": "Cucharada(s) de extracto de vainilla."
+            },
+            {
+                "quantity": 1,
+                "item": "Taza(s) de mantequilla light."
+            },
+            {
+                "quantity": 1,
+                "item": "Cucharada(s) de sirope de arce o miel."
+            }
+        ],
+        "image": "img/recipe-img9.png",
+        "amount": 1,
+        "cookware": [
+            "Horno",
+            "Bowl",
+            "Mezclador",
+            "Ramiqui(es)",
+            "Escurridor"
+        ],
+        "instructions": [
+            "Precalienta el horno a 350ºC.",
+            "Combina los ingredientes secos.",
+            "En un recipiente, mezcla los ingredientes líquidos.",
+            "Combina ambas mezclas hasta que esté suave.",
+            "Vierte la mezcla en el remiqui.",
+            "Coloca en el horno durante 17 minutos.",
+            "Retiralos del horno y déjalos enfroar.",
+            "Mezcla el sirope, la mantequilla, vainilla y tapioca.",
+            "Decora y sirve."
+        ],
+        "media": "https://www.youtube.com/embed/2p4dZZDNrN4",
+        "sides": "Puedes decorar con frutos secos, salsas de sabores (frutos rojos, chocolate, dulce de leche, etc.), frutas cortadas en trozos o arándanos."
+    },
+    "recipe-10": {
+        "miniature-img": "img/recipe10.png",
+        "category": "Bebidas",
+        "name": "Smoothie Saludable de Piña",
+        "subtitle": "Bebida refrescante",
+        "description": "Este Smoothie es un infaltable en tus recetas de verano, ideales para refrescar los días más calurosos de manera saludable y deliciosa.",
+        "time": "5 min",
+        "difficulty": "Fácil",
+        "ingredient": [
+            {
+                "quantity": 125,
+                "item": "gr de piña."
+            },
+            {
+                "quantity": 1,
+                "item": "Vaso de leche."
+            },
+            {
+                "quantity": 1,
+                "item": "Yogurt natural o de piña."
+            },
+            {
+                "quantity": 1,
+                "item": "Cucharada(s) de miel o edulcorante."
+            },
+            {
+                "quantity": 3,
+                "item": "Cucbos de hielo."
+            }
+        ],
+        "image": "img/recipe-img10.png",
+        "amount": 1,
+        "cookware": [
+            "Chuchillo",
+            "Tabla de cortar",
+            "Batidora",
+            "Vaso de batidora"
+        ],
+        "instructions": [
+            "Pela la piña y retirale el corazón.",
+            "Corta la piña en trozos medianos.",
+            "Coloca la piña en el vaso de la batidora.",
+            "Agrega la leche y el yogurt.",
+            "Añade la miel o el edulcorante.",
+            "Coloca los cubos de hielo.",
+            "Tritura hasta obtener una textura suave.",
+            "Sirve inmediatamente o refrigera."
+        ],
+        "media": "https://www.youtube.com/embed/V5C1LmVo32A",
+        "sides": "Puedes decorar con unas hojas de menta fresca y acompañar con tu desayuno regular."
+    },
+    "recipe-11": {
+        "miniature-img": "img/recipe11.png",
+        "category": "Comida Rápida",
+        "name": "Burrito al Estilo Mexicano",
+        "subtitle": "Plato típico Tex-Mex",
+        "description": "Los burritos son una comida ideal para cualquier momento del día, su versatilidad permite adaptarse a cualquier tipo de dieta utilizando tus ingredientes preferidos.",
+        "time": "30 min",
+        "difficulty": "Fácil",
+        "ingredient": [
+            {
+                "quantity": 50,
+                "item": "gr alubias, frijoles o judías."
+            },
+            {
+                "quantity": 1,
+                "item": "Cebolla(s)."
+            },
+            {
+                "quantity": 1,
+                "item": "Pimiento(s) rojo."
+            },
+            {
+                "quantity": 1,
+                "item": "Pimiento(s) verde."
+            },
+            {
+                "quantity": 1,
+                "item": "Cucharada(s) de chile molido."
+            },
+            {
+                "quantity": 1,
+                "item": "Hoja(s) de laurel."
+            },
+            {
+                "quantity": 1,
+                "item": "Tortilla(s) de trigo."
+            },
+            {
+                "quantity": 50,
+                "item": "gr de queso mozzarella."
+            },
+            {
+                "quantity": 1,
+                "item": "Chorro(s) de aceite vegetal."
+            },
+            {
+                "quantity": 1,
+                "item": "Cucharada(s) de sal."
+            },
+            {
+                "quantity": 50,
+                "item": "gr de arroz cocido."
+            },
+            {
+                "quantity": 10,
+                "item": " gr de maiz tierno."
+            },
+            {
+                "quantity": 20,
+                "item": "gr de lechuga cortada en tiras."
+            }
+        ],
+        "image": "img/recipe-img11.png",
+        "amount": 1,
+        "cookware": [
+            "Chuchillo",
+            "Tabla de cortar",
+            "Báscula de cocina",
+            "Sartén",
+            "Pasapuré"
+        ],
+        "instructions": [
+            "Lava los frijoles con agua y cocinalos con laurel.",
+            "Coloca aceite en una sartén y agrega el chile.",
+            "Añade los frijoles y sazona al gusto.",
+            "Tritura con la ayuda de un pasapuré.",
+            "Pela y corta la cebolla y los pimientos en tiras.",
+            "En un sartén saltéa la cebolla y los pimientos.",
+            "Calienta las tortillas durante 20 segundos.",
+            "Sirve inmediatamente o refrigera.",
+            "Coloca una capa de frijoles en la tortilla.",
+            "Añade el arroz, la lechuga y el maiz.",
+            "Agrega queso uniformemente.",
+            "Dobla y enrolla la tortilla.",
+            "Sirve de inmediato"
+        ],
+        "media": "https://www.youtube.com/embed/bHiMbrMHu74",
+        "sides": "Puedes agregarle guacamole, salsa agria o picante en salsa. Acompaña con una bebida refrescante."
+    },
+    "recipe-12": {
+        "miniature-img": "img/recipe12.png",
+        "category": "Guarniciones",
+        "name": "Patatas Hasselback",
+        "subtitle": "Receta Sueca",
+        "description": "Estas patatas representan la fuarnición ideal para casí todos los platos. Lo que las hace singulares son los cortes en forma de acordeón, un detalle que permite que la patata se ase de una manera uniforme y que los sabores penetren mucho mejor en ella.",
+        "time": "50 min",
+        "difficulty": "Media",
+        "ingredient": [
+            {
+                "quantity": 1,
+                "item": "Patata(s) mediana(s)."
+            },
+            {
+                "quantity": 2,
+                "item": "Dientes de ajo."
+            },
+            {
+                "quantity": 2,
+                "item": "Nueces de mantequilla."
+            },
+            {
+                "quantity": 1,
+                "item": "Cucharada(s) de oregano seco."
+            },
+            {
+                "quantity": 1,
+                "item": "Cucharada(s) de sal."
+            },
+            {
+                "quantity": 1,
+                "item": "Cucharada(s) de pimienta."
+            },
+            {
+                "quantity": 20,
+                "item": "ml de aceite de oliva."
+            }
+        ],
+        "image": "img/recipe-img12.png",
+        "amount": 1,
+        "cookware": [
+            "Paño de algodón",
+            "Cuchillo",
+            "1 palo de brocheta",
+            "Papel para horno",
+            "Bandeja de hornear",
+            "Pincel de cocina"
+        ],
+        "instructions": [
+            "Lava las patatas y retira toda suciedad.",
+            "Seca con un paño las patatas.",
+            "Introduce por un costado el palo de brocheta.",
+            "Corta haciendo láminas hasta que el cuchillo toque el palo.",
+            "Pela los ajos y cortalos en láminas finas.",
+            "Coloca las laminas de ajo entre las láminas de patata.",
+            "Retira el palillo de brocheta",
+            "Precalienta el horno 10 minutos a 200ºC.",
+            "Coloca las patatas en una bandeja para horno.",
+            "Agrega sal y pimienta.",
+            "Pincela las patatas con aceite de oliva.",
+            "Hornea por 35 min a 160ºC arriba y abajo."
+        ],
+        "media": "https://www.youtube.com/embed/lsGqXHUpZRQ",
+        "sides": "Antes de sacar las patatas del horno, puedes rellenarlas con un poco de queso y gratinar por unos minutos."
+    }
+}

@@ -1,0 +1,150 @@
+/*In this file are set the css configuration for about page*/
+/*settings for banner hero (section 2)*/
+#banner-hero{
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 740px;
+    min-height: 200px;
+    margin-top: -80px;
+    background-image: url("../img/nosotros-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    flex-direction: column;
+}
+h2{
+    background-color: rgba(248, 248, 247, 0.5);
+}
+#down-arrow{
+    display: flex;
+    justify-content: center;
+    margin-top: -3%;
+    margin-bottom: 2%;
+}
+/*settings for about section (section 3)*/
+#about{
+    margin: 80px 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 30px;
+    align-content: center;
+}
+#about-title{
+    grid-column: 1/3;
+    text-align: center;
+    margin-bottom: 40px
+}
+#about-text{
+    grid-column-start: 1;
+    display: flex;
+    align-items: center;
+}
+#about-img{
+    grid-column-start: 2;
+    background-image: url("../img/quienes-somos.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+/*settings for allies (section 4)*/
+#allies{
+    width: 80%;
+    margin-bottom: 80px;
+    padding: 5% 10%;
+    background-color: #F3F3F3;
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+}
+#allies-title{
+    grid-row-start: 1;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#allies-logos{
+    display: flex;
+    justify-content: space-between;
+}
+/*settings for motivation area (section 5)*/
+#motivation{
+    margin: 80px 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 30px;
+    align-content: center;
+}
+#motivation-title{
+    grid-column: 1/3;
+    text-align: center;
+    margin-bottom: 40px
+}
+#motivation-img{
+    grid-column-start: 1;
+    background-image: url("../img/motivation.png");
+    background-position: right;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+#motivation-text{
+    grid-column-start: 2;
+    display: flex;
+    align-items: center;
+}
+/*Responsive adjustments for tablet version*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #allies-logos img{
+        width: 160px;
+        height: auto;
+    }
+    #down-arrow{
+        margin-top: -7%;
+    }
+}
+/*Responsive adjustments for mobile version*/
+@media screen and (max-width: 767px) {
+    #banner-hero{
+        height: 600px;
+        background-size: cover;
+        background-position: center;
+    }
+    #down-arrow{
+        margin-top: -10%;
+    }
+    #about, #motivation{
+        grid-template-rows: repeat(3, auto);
+         padding: 0 5%;
+    }
+    #about-title, #motivation-title{
+        grid-column: 1/3;
+        grid-row: 1;
+    }
+    #about-text, #motivation-text{
+        grid-column: 1/3;
+        grid-row: 3;
+    }
+    #about-img, #motivation-img{
+        grid-column: 1/3;
+        grid-row: 2;
+        width: 100%;
+        height: 250px;
+    }
+    #allies-logos{
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        gap: 20px;
+    }
+    #allies-logos img{
+        width: 240px;
+        height: auto;
+    }
+}

@@ -1,0 +1,284 @@
+/*In this file are set the css configuration for the home page*/
+/*settings for banner hero (section 2)*/
+#banner-hero{
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 740px;
+    min-height: 200px;
+    margin-top: -80px;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+#subtitle-text{
+    margin-top: 2%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: 0.25px;
+    color: #0B190B;
+    width: 100%;
+}
+#down-arrow{
+    display: flex;
+    justify-content: center;
+    margin-top: -3%;
+    margin-bottom: 2%;
+}
+/*settings for page contain*/
+#page-contain{
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+}
+/*settings for Categories title and carousel (section 3)*/
+.category{
+    cursor: pointer;
+}
+.category img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.category:hover > p{
+    color: #408C3E;
+}
+.overline{
+    margin-top: 20px;
+}
+/*settings for Popular Recipes (section 4)*/
+#popular-recipes{
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    grid-template-rows: repeat(2 1fr);
+    grid-gap: 30px;
+    text-align: center;
+}
+#popular-recipes-title{
+    margin: 80px 0;
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+/*settings for blog area (section 5)*/
+#blog{
+    display: grid;
+    grid-template-columns: 55% 42%;
+    grid-template-rows: repeat(4 1fr);
+    gap: 3%;
+    margin-bottom: 80px;
+}
+#blog-title{
+    grid-column: 1;
+}
+#main-post{
+    grid-column: 1/2;
+    grid-row: 2/5;
+    width: 100%;
+    height: auto;
+    background-image: url("../img/main-post.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main-post:hover>#post-name{
+    display: flex;
+    padding: 0 10%;
+    font-size: 35px;
+    line-height: 50px;
+    color: #F7F7F6;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+#post-name{
+    padding: 5% 10% 0 10%;
+    height: 100%;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#blog-subtitle{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: baseline;
+}
+.post{
+    background-color: #F7F7F6;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 80% 15%;
+    justify-content: center;
+    gap: 5%;
+    padding: 5% 8%;
+}
+.post-arrow{
+    align-self: center;
+    padding-left: 2%;
+    display: flex;    
+    justify-content: flex-end;
+}
+.post:hover{
+    background-color: #EAEAEA;
+}
+#post-1{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#post-2{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+#post-3{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+/*settings for newsletter area (section 6)*/
+#newsletter{
+    width: 100%;
+    background-image: url("../img/newsletter-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3 1fr);
+}
+#newsletter-title{
+    margin: 40px 0 20px 0;
+    text-align: center;
+}
+#newsletter-form{
+    margin: 20px auto 40px auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+#form-btn{
+    background: #408C3E;
+    border-radius: 0px 6px 6px 0px;
+    border: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #F7F7F6;
+    padding: 1% 5%;
+}
+#newsletter-input{
+    background-color: #F7F7F6;
+    border: 0.5px solid #333333;
+    border-radius: 6px 0px 0px 6px;
+    padding: 1% 15% 1% 1%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+    letter-spacing: 0.4px;
+    color: #828282;
+}
+/*Responsive adjustments for tablet version*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #banner-hero{
+        height: 740px;
+        min-height: 500px;
+        margin-top: -150px;
+        background-size: cover;
+        background-position: center;
+    }
+    #banner-hero-subtitle{
+        margin-top: -65%;
+    }
+    #down-arrow{
+        margin-top: -7%;
+    }
+    #page-contain{
+        padding: 0 5%;
+        width: 90%;
+    }
+    #popular-recipes{
+        grid-template-columns: repeat(1 1fr);
+        grid-template-rows: repeat(1 1fr);
+        grid-gap: 30px;
+    }
+}
+/*Particular responsive to hide 4th card*/
+@media screen and (min-width: 877px) and (max-width: 1454px) {
+    #popular-recipe-4{
+    display:none;
+    }
+} 
+/*Responsive adjustments for mobile version*/
+@media screen and (max-width: 767px) {
+    #banner-hero{
+        height: 600px;
+        background-size: cover;
+        background-position: center;
+    }
+    #down-arrow{
+        margin-top: -15%;
+    }
+    #subtitle-text{
+        font-size: 30px;
+    }
+    #page-contain{
+        padding: 0 5%;
+        width: 90%;
+    }
+    #blog{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6 auto);
+        margin-bottom: 200px;
+    }
+    #blog-title{
+        grid-row: 1;
+        text-align: center;
+    }
+    #main-post{
+        grid-row: 2;
+        height: 350px;
+
+    }
+    #blog-subtitle{
+        grid-row: 3;
+        grid-column: 1;
+        margin: 5% 0;
+        text-align: center;
+    }
+    #post-1{
+        grid-row: 4;
+        grid-column: 1;
+    }
+    #post-2{
+        grid-row: 5;
+        grid-column: 1;
+    }
+    #post-3{
+        grid-row: 6;
+        grid-column: 1;
+    }
+    #newsletter-description{
+        padding: 0 5%;
+    }
+    #newsletter-form{
+    width: 40%;
+}
+    #newsletter-input{
+        padding: 8% 19% 8% 8%;
+    }
+    #carousel{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+

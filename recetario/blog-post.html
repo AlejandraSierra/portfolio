@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--Head Section including links to all stylesheets, jquery and javascript files-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recetario - Blog</title>
+    <link rel="stylesheet" href="style/header.css" type="text/css">
+    <link rel="stylesheet" href="style/global.css" type="text/css">
+    <link rel="stylesheet" href="style/blog-post.css" type="text/css">
+    <link rel="stylesheet" href="style/footer.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script/global-script.js"></script>
+</head>
+
+<body>
+    <!--Section 1: Header. Includes logo, navigation bar and searcher-->
+    <div id="grid-container">
+        <div id="header">
+            <img src="img/hamburger-menu.svg" id="hamburger-icon" alt="Icono para habilitar el menú lateral" width="30px" height="auto" onclick="openNav()">
+            <div id="hamburger-menu" class="overlay">
+                <a class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">Inicio</a>
+                    <a href="recetas.html">Recetas</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="nosotros.html">Nosotros</a>
+                </div>
+            </div>
+            <div id="logo">
+                <a href="index.html"><img src="img/logo.png" alt="Logo" width="141px" height="53px"></a>
+            </div>
+            <nav id="nav-bar">
+                <a href="index.html">Inicio</a>
+                <a href="recetas.html">Recetas</a>
+                <a href="blog.html">Blog</a>
+                <a href="nosotros.html">Nosotros</a>
+            </nav>
+            <div id="search">
+                <img src="img/buscar.svg" alt="buscador" onclick="search()">
+            </div>
+        </div>
+        <div id="search-bar">
+            <input type='text' id='search-input' placeholder='Escribe aquí lo que deseas buscar'>
+            <button type="button" id="search-btn" onclick="goToRecipesPage()"><img src="img/right-arrow.svg" alt="Buscar"></button>
+        </div>
+    </div>
+
+    <!--Section 2: Banner Hero-->
+    <div id="banner-hero">
+        <h2>Blog</h2><br>
+    </div>
+
+    <!--Blog Entrie-->
+    <div id="post">
+        <h3 id="post-title"></h3>
+        <div id="post-img">
+        </div>
+        <p id="post-content" class="body1"></p>
+    </div>
+
+    <!--Section x: Footer-->
+    <div id="footer">
+        <div id="footer-text">Todos los derechos reservados. Alejandra Sierra 2021</div>
+        <div id="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><img src="img/icono-fb.svg" alt="facebook icon"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/icono-instagram.svg" alt="instagram icon"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="img/icono-yt.svg" alt="youtube icon"></a>
+        </div>
+    </div>
+
+    <script src="script/blog-post.js"></script>
+</body>
+
+</html>

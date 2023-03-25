@@ -1,0 +1,101 @@
+/* settings for the blog page*/
+/*settings for banner hero (section 2)*/
+#banner-hero{
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 420px;
+    min-height: 200px;
+    margin-top: -80px;
+    background-image: url("../img/blog-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+#subtitle-text{
+    margin-top: -80px;
+    text-align: center;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.25px;
+    color: #0B190B;
+    width: 100%;
+}
+#blog-grid{
+    margin: 80px 10%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+/*settings for blog entries (section 3)*/
+.blog-entry{
+    width: auto;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#image-1{
+    background-image: url("../img/entry-1.png");
+    grid-column: 1/3;
+}
+#image-2{
+    background-image: url("../img/entry-2.png");
+    grid-column: 3;
+}
+#image-3{
+    background-image: url("../img/entry-3.png");
+    grid-column: 1;
+}
+#image-4{
+    background-image: url("../img/entry-4.png");
+    grid-column: 2;
+}
+#image-5{
+    background-image: url("../img/entry-5.png");
+    grid-column: 3;
+}
+#image-6{
+    background-image: url("../img/entry-6.png");
+    grid-column: 1;
+}
+#image-7{
+    background-image: url("../img/entry-7.png");
+    grid-column: 2/4;
+}
+#image-1:hover>#text-1,#image-2:hover>#text-2, #image-3:hover>#text-3, #image-4:hover>#text-4, #image-5:hover>#text-5, #image-6:hover>#text-6, #image-7:hover>#text-7{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+.card-text{
+    height: 350px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#text-1,#text-2,#text-3,#text-4,#text-5,#text-6,#text-7{
+    display: none;
+}
+/*Responsive adjustments for tablet version*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+/*Responsive adjustments for mobile version*/
+@media screen and (max-width: 767px) {
+    #blog-grid{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    #text-1, #text-2, #text-3, #text-4, #text-5, #text-6, #text-7{
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+}
