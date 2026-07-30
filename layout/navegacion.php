@@ -56,7 +56,7 @@
                     </ul>
                     <div class="dropdown">
                         <button class="btn btn-lang dropdown-toggle ps-2" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa-solid fa-globe"></i>
+                            <i class="fa-solid fa-language"></i>
                         </button>
                         <ul class="dropdown-menu dropdown-lang" aria-labelledby="dropdownMenu2">
                           <li><button class="dropdown-item" type="button"><a href="<?php echo $rutaRelativa.'?lang=es' ?>" class="nav-link">Español</a></button></li>
