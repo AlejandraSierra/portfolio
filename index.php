@@ -67,7 +67,7 @@
                     </ul>
                     <div class="dropdown">
                         <button class="btn btn-lang dropdown-toggle ps-2" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa-solid fa-language"></i>
+                            <i class="fa-solid fa-globe-americas"></i>
                         </button>
                         <ul class="dropdown-menu dropdown-lang" aria-labelledby="dropdownMenu2">
                           <li><button class="dropdown-item" type="button"><a href="<?php echo $rutaRelativa.'?lang=es' ?>" class="nav-link">Español</a></button></li>
@@ -152,8 +152,11 @@
                         <div class="col-12 col-md-4 pe-3">
                             <div class="h5 text-md-end pb-2 pb-lg-0"><?php echo $lang['hab_cat3']?></div>
                         </div>
-                        <div class="col-12 col-md-8 ps-4 lead info-skill">
+                        <div class="col-6 col-md-4 ps-4 lead info-skill">
                             <?php echo $lang['hab_cat3_info1']?>
+                        </div>
+                        <div class="col-6 col-md-4 ps-4 lead">
+                            <?php echo $lang['hab_cat3_info2']?>
                         </div>
                     </div>
 
@@ -166,6 +169,18 @@
                         </div>
                         <div class="col-6 col-md-4 ps-4 lead">
                             <?php echo $lang['hab_cat4_info2']?>
+                        </div>
+                    </div>
+
+                    <div class="row align-items-stretch pb-5 px-3 px-lg-0">
+                        <div class="col-12 col-md-4 pe-3">
+                            <div class="h5 text-md-end pb-2 pb-lg-0"><?php echo $lang['hab_cat5']?></div>
+                        </div>
+                        <div class="col-6 col-md-4 ps-4 lead info-skill">
+                            <?php echo $lang['hab_cat5_info1']?>
+                        </div>
+                        <div class="col-6 col-md-4 ps-4 lead">
+                            <?php echo $lang['hab_cat5_info2']?>
                         </div>
                     </div>
                     
